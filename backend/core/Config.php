@@ -31,6 +31,12 @@ class Config{
             'password' => 'sample',
             'encryption' => 'tls',
             'from' => 'Sample'
+        ],
+        'session' => [
+            'session_name' => 'user',
+            'token_name' => 'token',
+            'token_length' => 32,
+            'token_time' => 1800
         ]
     ];
 

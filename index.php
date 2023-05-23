@@ -2,30 +2,37 @@
 
 require('./autoload.php');
 
-use backend\core\{Config, Database};
+use backend\core\{Session, Config};
+use backend\model\User;
 
-echo Config::get('db.host');
+Session::init();
 
-// try query
-$db = Database::getInstance();
-// $stmt = $db->query('SELECT * FROM users');
+// create User
+$user = new User();
+
+// $user->createUser([
+//     'username' => 'test2',
+//     'password' => 'test2',
+//     'nickname' => 'test2',
+//     'email' => 'sample@gmail.om2',
+// ]);
+
+echo '<pre>';
+print_r($user->getAllUsers());
+echo '</pre>';
 
 // echo '<pre>';
-// print_r($stmt->fetchAll());
+// print_r($user->getColumns()[0]->Extra);
 // echo '</pre>';
 
-// create new user
-$sql = "INSERT INTO users (username, password, nickname, email) VALUES (?, ?, ?, ?)";
-$params = ['user', 'user', 'user', 'sample@gmail.com'];
-$stmt = $db->query($sql, $params);
+// login user
+// $user->loginUser([
+//     'username' => 'test',
+//     'password' => 'test',
+// ]);
 
-if(!$stmt->error()){
-    echo 'User created successfully';
-}else{
-    echo 'Error creating user';
-}
-// get all users
-// $stmt = $db->query('SELECT * FROM users');
-// echo '<pre>';
-// print_r($stmt->fetchAll());
-// echo '</pre>';
+// if ($user->error()) {
+//     echo 'error';
+// } else {
+//     echo 'success';
+// }

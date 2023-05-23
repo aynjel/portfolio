@@ -68,5 +68,21 @@ class Database {
     public function error() {
         return $this->error;
     }
+
+    public function results() {
+        return $this->results;
+    }
+
+    public function count() {
+        return $this->count;
+    }
+
+    public function lastInsertId() {
+        return $this->lastInsertId;
+    }
+
+    public function first() {
+        return $this->results()[0];
+    }
     
 }
