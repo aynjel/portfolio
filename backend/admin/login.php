@@ -1,26 +1,45 @@
 <?php
 
-$input1 = $_GET['username'];
-$input2 = $_GET['password'];
+require('./../autoload.php');
 
-if(isset($input1) && isset($input2)){
-    if(!empty($input1) || !empty($input2)){
-        echo json_encode([
-            'status' => 'success',
-            'username' => $input1,
-            'password' => $input2
+use backend\core\{Request, Session};
+use backend\model\User;
+
+$username = Request::get('username');
+$password = Request::get('password');
+
+try{
+    if(!empty($username) && !empty($password)){
+        $user = new User();
+        $login = $user->loginUser([
+            'username' => $username,
+            'password' => $password
         ]);
+
+        if($login){
+            Session::set('user', $login);
+            echo json_encode([
+                'status' => 'success',
+                'message' => 'Login successful.',
+                'data' => $login
+            ]);
+        }else{
+            echo json_encode([
+                'status' => 'error',
+                'message' => 'Invalid username or password.'
+            ]);
+        }
     }else{
         echo json_encode([
             'status' => 'error',
-            'username' => 'username',
-            'password' => 'password'
+            'message' => 'Please enter username and password.'
         ]);
     }
-}else{
+
+} catch(Exception $e) {
     echo json_encode([
         'status' => 'error',
-        'username' => 'username',
-        'password' => 'password'
+        'message' => $e->getMessage()
     ]);
-}
+}    
+

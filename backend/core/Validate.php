@@ -17,7 +17,7 @@ class Validate{
     public function check($source, $items = []){
         foreach($items as $item => $rules){
             foreach($rules as $rule => $rule_value){
-                $value = trim($source[$item]);
+                $value = H::trim($source[$item]);
                 $item = H::sanitize($item);
 
                 if($rule === 'required' && empty($value)){

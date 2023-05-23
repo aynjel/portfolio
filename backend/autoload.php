@@ -1,19 +1,21 @@
 <?php
 
-session_start();
+function loadClass($className) {
 
-function autoload($className) {
-    if (file_exists('backend/core/' . $className . '.php')) {
-        require('backend/core/' . $className . '.php');
-    } elseif (file_exists('../backend/core/' . $className . '.php')) {
-        require('../backend/core/' . $className . '.php');
-    } elseif (file_exists('backend/model/' . $className . '.php')) {
-        require('backend/model/' . $className . '.php');
-    } elseif (file_exists('../backend/model/' . $className . '.php')) {
-        require('../backend/model/' . $className . '.php');
+    if (false !== ($lastNsPos = strripos($className, '\\'))) {
+        $className = substr($className, $lastNsPos + 1);
+    }
+    
+    if (file_exists('core/' . $className . '.php')) {
+        require('core/' . $className . '.php');
+    } elseif (file_exists('../core/' . $className . '.php')) {
+        require('../core/' . $className . '.php');
+    } elseif (file_exists('model/' . $className . '.php')) {
+        require('model/' . $className . '.php');
+    } elseif (file_exists('../model/' . $className . '.php')) {
+        require('../model/' . $className . '.php');
     } else{
         die('Class ' . $className . ' not found');
     }
 }
-
-spl_autoload_register('autoload');
+spl_autoload_register('loadClass');

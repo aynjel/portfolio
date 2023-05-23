@@ -3,6 +3,10 @@
 namespace backend\core;
 
 class H{
+
+    public static function trim($data){
+        return trim($data);
+    }
     
     public static function sanitize($data){
         return htmlentities($data, ENT_QUOTES, 'UTF-8');
