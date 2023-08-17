@@ -1,10 +1,13 @@
-import { NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
+// import <i class="fa-solid fa-code"></i>
+import { FaCode } from "react-icons/fa"
 
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom">
             <div className="container-fluid" style={{ padding: "0 10%" }}>
                 <a href="/" className="navbar-brand">
+                    <FaCode className="me-2 fs-3" />
                     Portfolio
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
