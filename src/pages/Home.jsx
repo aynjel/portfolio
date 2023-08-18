@@ -1,5 +1,5 @@
 import ProfilePic from '../assets/img/my-profile-pic.jpg'
-import { Card, CardBody, CardFooter, CardHeader, Col, Container, Row } from 'reactstrap'
+import { Card, CardBody, CardHeader, Col, Container, Row } from 'reactstrap'
 import { FaBootstrap, FaCss3Alt, FaDiscord, FaFacebook, FaGit, FaGithub, FaHtml5, FaInstagram, FaJs, FaLaravel, FaLinkedinIn, FaNodeJs, FaPhp, FaReact, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
