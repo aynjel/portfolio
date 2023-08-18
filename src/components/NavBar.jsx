@@ -1,40 +1,96 @@
 import { NavLink } from "react-router-dom"
-// import <i class="fa-solid fa-code"></i>
 import { FaCode } from "react-icons/fa"
+import { useState } from 'react';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    Nav,
+    NavItem,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
+    Container
+} from 'reactstrap';
 
-function NavBar() {
+function NavBar({ ...args }) {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+    
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <div className="container-fluid" style={{ padding: "0 10%" }}>
-                <a href="/" className="navbar-brand">
-                    <FaCode className="me-2 fs-3" />
-                    Portfolio
-                </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon" />
-                </button>
-                <div id="navbarNavAltMarkup" className="collapse navbar-collapse">
-                    <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
-                            <NavLink to="/" className="nav-link">
-                                Home
+        <Container>
+            <Navbar {...args} light expand="md" className="border-bottom border-1">
+                <NavLink to="/" className="navbar-brand d-flex align-items-center text-secondary text-uppercase fw-bold fs-4">
+                    <FaCode className="me-2 fs-1" />
+                    <span className="text-warning">My</span>Profile
+                </NavLink>
+                <NavbarToggler onClick={toggle} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className="ms-auto" navbar>
+                        <NavItem>
+                            <NavLink to="/education" className="nav-link">
+                                Education
                             </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="/about" className="nav-link">
-                                About
+                        </NavItem>
+                        <UncontrolledDropdown nav inNavbar>
+                            <DropdownToggle nav caret>
+                                Projects
+                            </DropdownToggle>
+                            <DropdownMenu start="true">
+                                <DropdownItem>
+                                    <NavLink to="/projects" className="nav-link">
+                                        All Projects
+                                    </NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <NavLink to="/projects/web-design" className="nav-link">
+                                        Wed Design
+                                    </NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <NavLink to="/projects/web-development" className="nav-link">
+                                        Web Development
+                                    </NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <NavLink to="/projects/mobile-apps" className="nav-link">
+                                        Mobile Apps
+                                    </NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <NavLink to="/projects/database" className="nav-link">
+                                        Database
+                                    </NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <NavLink to="/projects/other" className="nav-link">
+                                        Other
+                                    </NavLink>
+                                </DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                        <NavItem>
+                            <NavLink to="/skills" className="nav-link">
+                                Skills
                             </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="/contact" className="nav-link">
-                                Contact
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to="/certifications" className="nav-link">
+                                Certifications
                             </NavLink>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to="/exprience" className="nav-link">
+                                Exprience
+                            </NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </Container>
     )
 }
 
