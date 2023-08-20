@@ -83,7 +83,7 @@ function NavBar({ ...args }) {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/exprience" className="nav-link">
+                            <NavLink to="/experience" className="nav-link">
                                 Exprience
                             </NavLink>
                         </NavItem>

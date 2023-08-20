@@ -1,7 +1,7 @@
-import { Card, CardBody, CardHeader, } from 'reactstrap'
+import { Card, CardBody, CardHeader,} from 'reactstrap'
 import { Link } from 'react-router-dom'
 
-function Home() {
+function Certifications() {
     return (
         <Card className="border-0 text-center">
             <CardHeader className="bg-transparent border-0">
@@ -82,4 +82,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Certifications

@@ -7,8 +7,8 @@ function NotFound() {
                 <h1 className="text-warning fw-bold fs-1">
                     404
                 </h1>
-                <p className="text-secondary">
-                    Page Not Found
+                <p className="text-warning fw-bold fs-3">
+                    Page not found
                 </p>
             </Container>
         </>
