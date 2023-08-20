@@ -27,7 +27,7 @@ function NavBar({ ...args }) {
                     <FaCode className="me-2 fs-1" />
                     <span className="text-warning">My</span>Profile
                 </NavLink>
-                <NavbarToggler onClick={toggle} />
+                <NavbarToggler onClick={toggle} className="border-0" />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ms-auto" navbar>
                         <NavItem>
