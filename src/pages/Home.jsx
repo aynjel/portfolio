@@ -13,7 +13,7 @@ function Home() {
                 <h1 className="text-warning fw-bold">
                     Full Stack Developer
                 </h1>
-                <p className="text-secondary">
+                <p className="text-secondary py-2">
                     Hi, I am <em><strong>Angel Niño Ortega</strong></em>, a passionate and dedicated full stack developer with a degree in BSIT.
                 </p>
                 <ul className="list-unstyled d-flex justify-content-center align-items-center flex-wrap">
@@ -58,8 +58,8 @@ function Home() {
                 <h3 className="text-warning fw-bold mb-4">
                     Connect with me
                 </h3>
-                <ul className="list-unstyled d-flex justify-content-center align-items-start flex-column gap-3">
-                    <li className="me-3">
+                <ul className="list-unstyled d-flex align-items-start flex-column gap-3">
+                    <li>
                         <img src="/icons/gmail.png" width="30" />
                         <span className="ms-2">
                             <a href="mailto:ortegacanillo76@gmail.com" className="text-decoration-none text-secondary">
@@ -67,7 +67,7 @@ function Home() {
                             </a>
                         </span>
                     </li>
-                    <li className="me-3">
+                    <li>
                         <img src="/icons/telephone.png" width="30" />
                         <span className="ms-2">
                             <a href="tel:+639271305088" className="text-decoration-none text-secondary">
