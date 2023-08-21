@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Container className='d-flex flex-column justify-content-center align-items-center mt-5'>
+      <Container>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
