@@ -25,16 +25,6 @@ function Home() {
         )
     }
 
-    if (!details) {
-        return (
-            <section className="px-5 d-flex justify-content-center align-items-center flex-column" style={{ minHeight: '600px' }}>
-                <h1 className="text-warning fw-bold mb-4 text-center">
-                    No data found
-                </h1>
-            </section>
-        )
-    }
-
     return (
         <>
             <section style={{
@@ -44,14 +34,14 @@ function Home() {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <Container className="px-5 py-3 d-flex justify-content-center align-items-center flex-column">
-                    <img src={details.image.src} alt="Profile Pic" className="img-fluid rounded-circle mb-4 d-flex justify-content-center align-items-center" width="200px" height="200px" style={
+                <Container className="px-5 py-5 d-flex justify-content-center align-items-center flex-column">
+                    <img src={details.image.src} alt="Profile Pic" className="img-fluid rounded-circle mb-5 d-flex justify-content-center align-items-center" width="200px" height="200px" style={
                         {
                             border: '2px solid #ffc107'
                         }
                     } title={details.image.alt} />
 
-                    <h1 className="text-warning fw-bold mb-4 text-center">
+                    <h1 className="text-warning fw-bold mb-3 text-center">
                         {details.position}
                     </h1>
 
@@ -67,8 +57,13 @@ function Home() {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <Container className="px-5 py-3 d-flex justify-content-center align-items-center flex-column">
-                    <h2 className="text-secondary fw-bold mb-4 text-center">
+                <Container className="px-5 py-5 d-flex justify-content-center align-items-center flex-column">
+                    <div className="mb-5">
+                        <svg width="80" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <use xlinkHref="svg/icons.svg#tools" />
+                        </svg>
+                    </div>
+                    <h2 className="text-secondary fw-bold mb-5 text-center">
                         Tech Stack and Tools
                     </h2>
                     <ListGroup className="d-flex justify-content-center align-items-center flex-wrap flex-row">
@@ -90,8 +85,8 @@ function Home() {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <Container className="px-5 py-3 d-flex justify-content-center align-items-center flex-column">
-                    <h2 className="text-secondary fw-bold mb-4 text-center">
+                <Container className="px-5 py-5 d-flex justify-content-center align-items-center flex-column">
+                    <h2 className="text-secondary fw-bold mb-5 text-center">
                         Connect with me
                     </h2>
                     <ListGroup className="d-flex justify-content-center align-items-center flex-wrap flex-row">
@@ -109,14 +104,14 @@ function Home() {
             </section>
 
             <section className='bg-secondary' style={{
-                minHeight: '400px',
+                minHeight: '500px',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
                 <Container className="px-5 py-5 d-flex justify-content-center align-items-center flex-column">
-                    <img src={details.image.src} alt="My Profile" className="img-fluid rounded-circle mb-4" width="80px" style={{border: '1px solid #fff'}} />
-                    <h2 className="text-light fw-bold mb-4 text-center">
+                    <img src={details.image.src} alt="My Profile" className="img-fluid rounded-circle mb-5" width="80px" style={{border: '1px solid #fff'}} />
+                    <h2 className="text-light fw-bold mb-3 text-center">
                         Welcome to my portfolio
                     </h2>
                     <p className="text-light" style={{ textAlign: 'justify' }}>
