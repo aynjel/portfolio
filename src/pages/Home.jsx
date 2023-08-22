@@ -9,7 +9,7 @@ function Home() {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        axios.get('http://localhost:3001/details')
+        axios.get('https://db-json-nine.vercel.app/details')
             .then(res => {
                 setDetails(res.data)
                 setIsLoading(false)
