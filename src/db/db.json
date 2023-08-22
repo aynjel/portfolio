@@ -1,0 +1,261 @@
+{
+    "details": {
+        "name": "Angel Niño C. Ortega",
+        "age": "23",
+        "birthday": "July 13, 2000",
+        "position": "Full Stack Developer",
+        "image": {
+            "src": "images/profile.jpg",
+            "alt": "Angel Niño C. Ortega"
+        },
+        "resume": "files/resume.pdf",
+        "location": "Bato, Toledo City",
+        "geolocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.880547722434!2d123.6403153148008!3d10.3799949926421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!",
+        "contact": {
+            "phone": {
+                "link": "tel:+639123456789",
+                "number": "+639123456789",
+                "icon": "svg/icons.svg#phone"
+            },
+            "email": {
+                "link": "mailto:ortegacanillo76@gmail.com",
+                "name": "Angel Niño C. Ortega",
+                "icon": "svg/icons.svg#email"
+            }
+        },
+        "socials": [
+            {
+                "link": "https://github.com/aynjel",
+                "username": "aynjel | GitHub",
+                "icon": "svg/icons.svg#github"
+            },
+            {
+                "link": "https://www.linkedin.com/in/angel-ni%C3%B1o-ortega-947b32252/",
+                "username": "angel-niño-ortega-947b32252",
+                "icon": "svg/icons.svg#linkedin"
+            },
+            {
+                "link": "https://www.facebook.com/kobe.ortega.9",
+                "username": "anggi | Facebook",
+                "icon": "svg/icons.svg#facebook"
+            },
+            {
+                "link": "https://twitter.com/aynjel17",
+                "username": "aynjel17 | Twitter",
+                "icon": "svg/icons.svg#twitter"
+            },
+            {
+                "link": "https://www.instagram.com/aynjel.12.23/",
+                "username": "aynjel.12.23 | Instagram",
+                "icon": "svg/icons.svg#instagram"
+            },
+            {
+                "link": "https://www.youtube.com/channel/UCTRwphb7KAMGGAiHl5Alm3Q",
+                "username": "Angel Niño C. Ortega | YouTube",
+                "icon": "svg/icons.svg#youtube"
+            },
+            {
+                "link": "",
+                "username": "angelortega76",
+                "icon": "svg/icons.svg#discord"
+            },
+            {
+                "link": "",
+                "username": "angelortega76",
+                "icon": "svg/icons.svg#telegram"
+            },
+            {
+                "link": "",
+                "username": "angelortega76",
+                "icon": "svg/icons.svg#tiktok"
+            },
+            {
+                "link": "mailto:ortegacanillo76@gmail.com",
+                "username": "ortegacanillo76@gmail.com",
+                "icon": "svg/icons.svg#email"
+            },
+            {
+                "link": "tel:+639123456789",
+                "username": "+639123456789",
+                "icon": "svg/icons.svg#whatsapp"
+            }
+        ],
+        "skills": [
+            {
+                "icon": "svg/icons.svg#html",
+                "name": "HTML",
+                "level": "95"
+            },
+            {
+                "icon": "svg/icons.svg#css",
+                "name": "CSS",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#javascript",
+                "name": "JavaScript",
+                "level": "80"
+            },
+            {
+                "icon": "svg/icons.svg#php",
+                "name": "PHP",
+                "level": "75"
+            },
+            {
+                "icon": "svg/icons.svg#cpp",
+                "name": "C++",
+                "level": "60"
+            },
+            {
+                "icon": "svg/icons.svg#wordpress",
+                "name": "WordPress",
+                "level": "50"
+            },
+            {
+                "icon": "svg/icons.svg#laravel",
+                "name": "Laravel",
+                "level": "60"
+            },
+            {
+                "icon": "svg/icons.svg#nodejs",
+                "name": "NodeJS",
+                "level": "80"
+            },
+            {
+                "icon": "svg/icons.svg#react",
+                "name": "React",
+                "level": "70"
+            },
+            {
+                "icon": "svg/icons.svg#tailwindcss",
+                "name": "Tailwind CSS",
+                "level": "60"
+            },
+            {
+                "icon": "svg/icons.svg#bootstrap",
+                "name": "Bootstrap",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#git",
+                "name": "Git",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#visualstudio",
+                "name": "Visual Studio",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#visualstudiocode",
+                "name": "Visual Studio Code",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#github",
+                "name": "GitHub",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#trello",
+                "name": "Trello",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#npm",
+                "name": "NPM",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#powershell",
+                "name": "PowerShell",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#mongodb",
+                "name": "MongoDB",
+                "level": "60"
+            },
+            {
+                "icon": "svg/icons.svg#mysql",
+                "name": "MySQL",
+                "level": "90"
+            },
+            {
+                "icon": "svg/icons.svg#postgresql",
+                "name": "PostgreSQL",
+                "level": "90"
+            }
+        ],
+        "tools": [
+
+        ],
+        "support": {
+            "buymeacoffe": "https://www.buymeacoffee.com/angelortega76",
+            "patreon": "https://www.patreon.com/angelortega76",
+            "paypal": "https://www.paypal.com/paypalme/angelortega76",
+            "gcash": "https://www.gcash.com/send-money",
+            "coinsph": "https://coins.ph/invite/6qj3xk",
+            "paymaya": "https://paymaya.page.link/refer",
+            "payoneer": "https://www.payoneer.com/philippines/",
+            "uphold": "https://uphold.com/en-us/",
+            "crypto": "https://www.coinbase.com/join/ortega_6x",
+            "bank": "https://www.bdo.com.ph/personal"
+        },
+        "school": {
+            "name": "Consolatrix College of Toledo City, Inc.",
+            "location": "Magsaysay Hills, Poblacion, Toledo City",
+            "year": "2019-2023",
+            "course": "Bachelor of Science in Information Technology",
+            "major": "Computer Utilization and Computer Programming",
+            "awards": [
+                {
+                    "title": "Dean's Lister",
+                    "date": "2019-2020"
+                },
+                {
+                    "title": "Best in Robotics",
+                    "date": "2019-2020"
+                },
+                {
+                    "title": "Dean's Lister",
+                    "date": "2020-2021"
+                },
+                {
+                    "title": "Dean's Lister",
+                    "date": "2021-2022"
+                },
+                {
+                    "title": "Dean's Lister",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Outstanding Software Developer",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Outstanding IT Specialist",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Best in Capstone Project",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Academic Excellence Award",
+                    "date": "2022-2023"
+                }
+            ]
+        },
+        "work": [
+            {
+                "name": "IT Staff",
+                "location": "Toledo City Sports Center (Megadome)",
+                "year": "2022-2023",
+                "month": "February - June",
+                "position": "Web Developer and IT Support",
+                "description": "I am responsible for the development of the website of the Toledo City Sports Center (Megadome) and also for the IT Support."
+            }
+        ]
+    }
+}

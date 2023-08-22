@@ -21,8 +21,8 @@ function NavBar({ ...args }) {
     const toggle = () => setIsOpen(!isOpen);
     
     return (
-        <Container>
-            <Navbar {...args} light expand="md" className="border-bottom border-1">
+        <Container className="px-5 d-none">
+            <Navbar {...args} light expand="md">
                 <NavLink to="/" className="navbar-brand d-flex align-items-center text-secondary text-uppercase fw-bold fs-4">
                     <FaCode className="me-2 fs-1" />
                     <span className="text-warning">My</span>Profile

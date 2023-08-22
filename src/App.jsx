@@ -11,14 +11,12 @@ import Experience from './pages/Experience'
 import NavBar from './components/NavBar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NotFound from './pages/NotFound'
-import { Container, } from 'reactstrap'
 
 function App() {
 
   return (
     <Router>
       <NavBar />
-      <Container>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -30,7 +28,6 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </Container>
     </Router>
   )
 }
