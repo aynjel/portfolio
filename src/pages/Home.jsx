@@ -15,6 +15,13 @@ function Home() {
                 setIsLoading(false)
             })
             .catch(err => console.log(err))
+        
+        // axios.get('http://localhost:4000/details')
+        //     .then(res => {
+        //         setDetails(res.data)
+        //         setIsLoading(false)
+        //     })
+        //     .catch(err => console.log(err))
     }, [])
 
     if (isLoading) {
