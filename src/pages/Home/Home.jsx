@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-
 function Home() {
     const [details, setDetails] = useState([])
     const [isLoading, setIsLoading] = useState(true)
@@ -24,15 +23,11 @@ function Home() {
         //     .catch(err => console.log(err))
     }, [])
 
-    if (isLoading) {
-        return (
-            <section className="px-5 d-flex justify-content-center align-items-center flex-column" style={{ minHeight: '600px' }}>
-                <Spinner color="warning" />
-            </section>
-        )
-    }
-
     return (
+        (isLoading) ? (
+            <section className="px-5 d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+                <Spinner color="warning" />
+            </section>) : 
         <>
             <section style={{
                 minHeight: '600px',

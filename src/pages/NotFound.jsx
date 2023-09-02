@@ -1,16 +1,20 @@
-import { Container } from "reactstrap"
+import styled from "styled-components"
+
+const Component = styled.div`
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+`
 
 function NotFound() {
     return (
         <>
-            <Container className="d-flex flex-column justify-content-center align-items-center mt-5">
-                <h1 className="text-warning fw-bold fs-1">
-                    404
-                </h1>
-                <p className="text-warning fw-bold fs-3">
-                    Page not found
-                </p>
-            </Container>
+            <Component>
+                <h1>Comming Soon...</h1>
+                <p>Sorry, this page is under construction.</p>
+            </Component>
         </>
     )
 }

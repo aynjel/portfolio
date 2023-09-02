@@ -77,7 +77,7 @@ function Skills() {
                                 </li>
                                 <li>
                                     <Link to="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer">
-                                        <img src="/icons/c-sharp.png" alt="C++" width="40" />
+                                        <img src="/icons/c-sharp.png" alt="C#" width="40" />
                                     </Link>
                                 </li>
                             </ul>
