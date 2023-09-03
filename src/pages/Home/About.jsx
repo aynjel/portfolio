@@ -1,62 +1,51 @@
-function About() {
+import PropTypes from 'prop-types';
+import styled from 'styled-components'
+
+const Component = styled.section`
+    display: block;
+    width: 100%;
+    background-color: var(--quaternary-color);
+    padding: 2rem 0;
+
+    img{
+        display: block;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+`
+
+function About({data}) {
     return (
-        <>
-            <div className="container">
-                <div className="card border-0 shadow my-5">
-                    <div className="card-body p-0 m-0 h-100">
-                        <div className="card-header bg-transparent border-0">
-                            <h1 className="card-title text-justify fw-bold">
-                                About Me
-                            </h1>
-                        </div>
-                        <div className="card-body">
-                            <h2 className="card-text text-justify me-3">
-                                Full Stack Web Developer
-                            </h2>
-                            <p className="card-text text-justify me-3">
-                                I am a full stack web developer with a passion for learning and creating. I have experience with HTML, CSS, JavaScript, Node.js, Express.js, MySQL, MongoDB, and React.js.
-                            </p>
-
-                            <hr className="my-4" />
-
-                            <div className='row'>
-                                <div className='col-md-6'>
-                                    <div className='card'>
-                                        <div className='card-body'>
-                                            <h5 className='card-title'>Front End</h5>
-                                            <ul className='card-text'>
-                                                <li>HTML</li>
-                                                <li>CSS</li>
-                                                <li>JavaScript</li>
-                                                <li>React.js</li>
-                                                <li>Bootstrap</li>
-                                                <li>Handlebars</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='col-md-6'>
-                                    <div className='card'>
-                                        <div className='card-body'>
-                                            <h5 className='card-title'>Back End</h5>
-                                            <ul className='card-text'>
-                                                <li>Node.js</li>
-                                                <li>Express.js</li>
-                                                <li>MySQL</li>
-                                                <li>MongoDB</li>
-                                                <li>GraphQL</li>
-                                                <li>REST</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
+        <Component>
+            <img src={data.image.src} alt="My Profile" />
+            <h2 className="text-light fw-bold mb-3 text-center">
+                Welcome to my portfolio
+            </h2>
+            <p className="text-light" style={{ textAlign: 'justify' }}>
+                Hi there! I am <strong>{data.name}</strong>, a {data.position} from {data.location}. I have a passion for web development and love to create websites and web applications. I am also a freelance web developer and I am open for projects. I am a self-taught programmer and I am always eager to learn new technologies and skills. I am a fast learner and I can easily adapt to new environments. I am also a team player and I can work with a team or individually. I am a hardworking person and I always strive to do my best in everything I do. I am also a responsible person and I always make sure to finish my tasks on time. I am also a good communicator and I can communicate well with my teammates and clients. I am also a good leader and I can lead a team to success. I am also a good problem solver and I can solve problems quickly and efficiently.
+            </p>
+        </Component>
     )
+}
+
+About.propTypes = {
+    data: PropTypes.object.isRequired
 }
 
 export default About
