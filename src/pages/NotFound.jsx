@@ -12,8 +12,8 @@ function NotFound() {
     return (
         <>
             <Component>
-                <h1>Comming Soon...</h1>
-                <p>Sorry, this page is under construction.</p>
+                <h1 className="text-center">404</h1>
+                <h2 className="text-center">Page Not Found</h2>
             </Component>
         </>
     )

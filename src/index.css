@@ -1,63 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
 :root {
-    --primary-color: #525FE1;
-    --secondary-color: #F86F03;
-    --tertiary-color: #FFA41B;
-    --quaternary-color: #FFD700;
-    --quinary-color: #FF8C00;
-    --senary-color: #FF4500;
-    --septenary-color: #FF0000;
-    --octonary-color: #FF1493;
-    --nonary-color: #FF69B4;
-    --denary-color: #FFB6C1;
+    --primary-color: #27374D;
+    --secondary-color: #526D82;
+    --tertiary-color: #9DB2BF;
+    --quaternary-color: #DDE6ED;
+    --quinary-color: #F5F8FA;
     --white-color: #FFFFFF;
-    --black-color: #000000;
-    --gray-color: #808080;
-    --light-gray-color: #D3D3D3;
-    --dark-gray-color: #A9A9A9;
-    --light-blue-color: #ADD8E6;
-    --dark-blue-color: #00008B;
-    --light-green-color: #90EE90;
-    --dark-green-color: #006400;
-    --light-red-color: #FFA07A;
-    --dark-red-color: #8B0000;
-    --light-yellow-color: #FFFFE0;
-    --dark-yellow-color: #BDB76B;
-    --light-orange-color: #FFDAB9;
-    --dark-orange-color: #FF8C00;
-    --light-pink-color: #FFC0CB;
-    --dark-pink-color: #FF1493;
-    --light-purple-color: #E6E6FA;
-    --dark-purple-color: #800080;
-    --light-brown-color: #F4A460;
-    --dark-brown-color: #8B4513;
-    --light-cyan-color: #E0FFFF;
-    --dark-cyan-color: #008B8B;
-    --light-magenta-color: #FF00FF;
-    --dark-magenta-color: #8B008B;
-    --light-lime-color: #00FF00;
-    --dark-lime-color: #32CD32;
-    --light-teal-color: #008080;
-    --dark-teal-color: #008080;
-    --light-navy-color: #000080;
-    --dark-navy-color: #000080;
-    --light-maroon-color: #800000;
-    --dark-maroon-color: #800000;
-    --white-color: #FFF6F4;
-}
-
-* {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #333;
 }
 
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 #root{
