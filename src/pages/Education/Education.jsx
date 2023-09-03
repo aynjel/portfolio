@@ -1,5 +1,5 @@
 import { Card, CardBody, CardHeader, Container, ListGroup, ListGroupItem } from 'reactstrap'
-import NotFound from './NotFound'
+import NotFound from '../NotFound'
 
 function Education() {
     return (

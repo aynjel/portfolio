@@ -6,7 +6,6 @@ import Hero from './Hero'
 import styled from 'styled-components'
 import TeachStack from './TeachStack'
 import Contact from './Contact'
-import About from './About'
 
 const Component = styled.section`
     display: block;
@@ -18,10 +17,6 @@ const Component = styled.section`
 
     #tech-stack{
         background-color: var(--tertiary-color);
-    }
-
-    #contacts{
-        background-color: var(--quinary-color);
     }
 `
 

@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 const Component = styled.footer`
-    background-color: var(--quinary-color);
-    color: var(--secondary-color);
     padding: 2rem 0;
+    max-width: 1158px;
+    margin: 0 auto;
 
     h1{
         font-size: 2rem;

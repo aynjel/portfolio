@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 const Component = styled.section`
     max-width: 1158px;
     margin: 0 auto;
-    background-color: var(--quinary-color);
     padding: 2rem 0;
 
     h2{

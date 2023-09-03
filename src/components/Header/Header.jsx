@@ -134,7 +134,7 @@ function Header() {
                 </Link>
                 <ul className="nav-list">
                     <li>
-                        <Link to="/cs">Education</Link>
+                        <Link to="/education">Education</Link>
                     </li>
                     <li>
                         <Link to="/cs">Skills</Link>
@@ -164,7 +164,7 @@ function Header() {
                 </button>
                 <ul id="mobile-menu-list" style={{display: mobileMenu ? "flex" : "none"}}>
                     <li>
-                        <Link to="/cs">Education</Link>
+                        <Link to="/education">Education</Link>
                     </li>
                     <li>
                         <Link to="/cs">Skills</Link>

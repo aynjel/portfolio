@@ -1,16 +1,15 @@
-import './App.css'
-import Home from './pages/Home/Home'
-import Education from './pages/Education'
-import Skills from './pages/Skills'
-import Experience from './pages/Experience'
-import Header from './components/Header/Header'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import NotFound from './pages/NotFound'
-import ComingSoon from './pages/ComingSoon'
-import Footer from './components/Footer/Footer'
+import "./App.css";
+import Home from "./pages/Home/Home";
+import Education from "./pages/Education/Education";
+import Skills from "./pages/Skills";
+import Experience from "./pages/Experience";
+import Header from "./components/Header/Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NotFound from "./pages/NotFound";
+import ComingSoon from "./pages/ComingSoon";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-
   return (
     <Router>
       <Header />
@@ -27,4 +26,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
