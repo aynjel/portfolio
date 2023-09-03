@@ -8,7 +8,7 @@ const Component = styled.header`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
     nav {
-        padding: 1.4rem 1rem;
+        padding: 1.4rem 0;
         max-width: 1158px;
         margin: 0 auto;
         display: flex;
@@ -107,7 +107,7 @@ const Component = styled.header`
         }
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
         #mobile-menu {
             display: flex;
         }

@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const Component = styled.section`
-    display: block;
-    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
     background-color: var(--quinary-color);
     padding: 2rem 0;
 
@@ -59,7 +59,7 @@ function Contact({data}) {
                 {data.socials.map(social => (
                     <li key={social.id} title={social.username}>
                         <Link to={social.link} target="_blank" rel="noreferrer" title={social.name}>
-                            <svg width="60" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="60" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                                 <use xlinkHref={social.icon} />
                             </svg>
                         </Link>

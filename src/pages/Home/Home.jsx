@@ -1,5 +1,3 @@
-import { Container, ListGroup, ListGroupItem, Spinner} from 'reactstrap'
-import { Link } from 'react-router-dom'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Loader from '../../components/Loader/Loader'
@@ -64,10 +62,7 @@ function Home() {
             <section id='contacts'>
                 <Contact data={details} />
             </section>
-
-            <section id='about'>
-                <About data={details} />
-            </section>
+            
         </Component>
     )
 }
