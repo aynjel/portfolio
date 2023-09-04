@@ -1,0 +1,582 @@
+{
+    "personalDetails": {
+        "fullname": "Angel Niño C. Ortega",
+        "firstname": "Angel Niño",
+        "middlename": "Canillo",
+        "lastname": "Ortega",
+        "nickname": "Anggi",
+        "age": "23",
+        "birthday": "July 13, 2000",
+        "image": {
+            "src": "https://uc1caba1143e02d6b200c958df77.previews.dropboxusercontent.com/p/thumb/ACAbr2uwML8J8M3lPAkJ4VoTJ4QvCDdfaw0RzSDPUPeUQ1wohRjXJfzxV_dxwzWDbMiPDkPLQMN4KcaDH2I2NkWhH_Y5I35uEjhNN_H3jw0rBHepvsvzntz8nGw5Yw-mL3f92ghlrhA3TzfrQD-4-vX3VyBoIoLkMFWdsbNFG1hBpMT0IKPIhm8SfBqY2MUpHXihiSH2tZUDozaFzP4Qu-CqVOJNTMyhG0sW_ZT21ZvUREvhiz6SjOtHCXTHt8J7Whz8yOUGeG82jN-Lu8njCli6UfWGDQkC0E_mzsVDzExblIHjcN8TrMvsEhE04PE2EfIS2PsRLib2YzEQNK6r3O9-9htTKa9KSPG6fbwb0yq4W0SZVTq4Zbuo1uXHIZk727A/p.jpeg",
+            "alt": "My Photo | Angel Niño C. Ortega"
+        },
+        "location": {
+            "street": "Purok 2",
+            "baranggay": "Bato",
+            "city": "Toledo City",
+            "province": "Cebu",
+            "country": "Philippines",
+            "zip": "6038",
+            "googlemaps": {
+                "link": "https://goo.gl/maps/79qkPZz9W4mfrdwp6",
+                "embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.0160260135935!2d123.58965907409929!3d10.340602267083257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a96ddcfe54e9e5%3A0xd52a6239447ac0d9!2sSan%20Vicente%20Ferrer%20Catholic%20Parish!5e0!3m2!1sen!2sph!4v1693820030140!5m2!1sen!2sph' width='600' height='450' style='border:0;' allowfullscreen=' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+            }
+        },
+        "contact": {
+            "number": "+639123456789",
+            "email": "ortegacanillo76@gmail.com"
+        },
+        "socials": [
+            {
+                "link": "https://github.com/aynjel",
+                "username": "aynjel",
+                "icon": ""
+            },
+            {
+                "link": "https://www.facebook.com/angelortega76",
+                "username": "angelortega76",
+                "icon": ""
+            },
+            {
+                "link": "https://twitter.com/angelortega76",
+                "username": "angelortega76",
+                "icon": ""
+            },
+            {
+                "link": "https://www.instagram.com/angelortega76",
+                "username": "angelortega76",
+                "icon": ""
+            },
+            {
+                "link": "https://www.linkedin.com/in/angelortega76",
+                "username": "angelortega76",
+                "icon": ""
+            },
+            {
+                "link": "https://www.youtube.com/channel/UC1caba1143e02d6b200c958df77",
+                "username": "angelortega76",
+                "icon": ""
+            }
+        ],
+        "skills": {
+            "programmingLanguage": [
+                {
+                    "name": "HTML",
+                    "level": "95"
+                },
+                {
+                    "name": "CSS",
+                    "level": "90"
+                },
+                {
+                    "name": "JavaScript",
+                    "level": "80"
+                },
+                {
+                    "name": "PHP",
+                    "level": "75"
+                }
+            ],
+            "framework": [
+                {
+                    "name": "Laravel",
+                    "level": "60"
+                },
+                {
+                    "name": "NodeJS",
+                    "level": "80"
+                },
+                {
+                    "name": "React",
+                    "level": "70"
+                },
+                {
+                    "name": "Bootstrap",
+                    "level": "90"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Git",
+                    "level": "90"
+                },
+                {
+                    "name": "Visual Studio Code",
+                    "level": "90"
+                },
+                {
+                    "name": "GitHub",
+                    "level": "90"
+                },
+                {
+                    "name": "Trello",
+                    "level": "90"
+                },
+                {
+                    "name": "NPM",
+                    "level": "90"
+                },
+                {
+                    "name": "PowerShell",
+                    "level": "90"
+                }
+            ],
+            "database": [
+                {
+                    "name": "MySQL",
+                    "level": "90"
+                },
+                {
+                    "name": "MongoDB",
+                    "level": "90"
+                },
+                {
+                    "name": "Firebase",
+                    "level": "90"
+                }
+            ],
+            "design": [
+                {
+                    "name": "Adobe Photoshop",
+                    "level": "90"
+                },
+                {
+                    "name": "Adobe Illustrator",
+                    "level": "90"
+                },
+                {
+                    "name": "Adobe XD",
+                    "level": "90"
+                },
+                {
+                    "name": "Adobe Premiere Pro",
+                    "level": "90"
+                },
+                {
+                    "name": "Adobe After Effects",
+                    "level": "90"
+                },
+                {
+                    "name": "Figma",
+                    "level": "90"
+                }
+            ],
+            "others": [
+                {
+                    "name": "Microsoft Office",
+                    "level": "90"
+                },
+                {
+                    "name": "Google Workspace",
+                    "level": "90"
+                },
+                {
+                    "name": "Windows",
+                    "level": "90"
+                },
+                {
+                    "name": "Linux",
+                    "level": "90"
+                },
+                {
+                    "name": "MacOS",
+                    "level": "90"
+                }
+            ]
+        },
+        "education": {
+            "school": {
+                "name": "Consolatrix College of Toledo City, Inc.",
+                "location": {
+                    "street": "Magsaysay Hills",
+                    "baranggay": "Poblacion",
+                    "city": "Toledo City",
+                    "province": "Cebu",
+                    "country": "Philippines",
+                    "zip": "6038",
+                    "googlemaps": {
+                        "link": "https://goo.gl/maps/79qkPZz9W4mfrdwp6",
+                        "embed": "<iframe src=''https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.0160260135935!2d123.58965907409929!3d10.340602267083257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a96ddcfe54e9e5%3A0xd52a6239447ac0d9!2sSan%20Vicente%20Ferrer%20Catholic%20Parish!5e0!3m2!1sen!2sph!4v1693820030140!5m2!1sen!2sph'' width=''600'' height=''450'' style=''border:0;'' allowfullscreen='' loading=''lazy'' referrerpolicy=''no-referrer-when-downgrade''></iframe>"
+                    }
+                },
+                "website": "http://cctc.edu.ph/",
+                "logo": {
+                    "src": "http://cctc.edu.ph/templates/jl_learnmate_lite/custom/images/Group%2010.svg",
+                    "alt": "Consolatrix College of Toledo City, Inc. Logo"
+                },
+                "year": "2019-2023",
+                "description": "Consolatrix College of Toledo City, Inc. is a private, non-sectarian educational institution in Toledo City, Cebu, Philippines. It was founded in 1960 by the late Dr. Jose Gullas and his wife, Mrs. Josefina Gullas. It is the first school in the city to offer a four-year degree course in Bachelor of Science in Nursing.",
+            },
+            "course": {
+                "name": "Bachelor of Science in Information Technology",
+                "description": "The Bachelor of Science in Information Technology (BSIT) program prepares students to be IT professionals who are able to perform installation, operation, development, maintenance and administration of computer applications. The goal of the program is to gear up students as information technologists who can assist individuals and organizations in solving problems using information technology (IT) techniques.",
+                "major": "Computer System and Network Technology"
+            },
+            "subjects": {
+                "firstYear": [
+                    {
+                        "subjectName": "Salvation History",
+                        "subjectCode": "THEO 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.8",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Introduction to Computing",
+                        "subjectCode": "COMP 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.5",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Computer Programming 1",
+                        "subjectCode": "PROG 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.1",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Human Computer Interaction",
+                        "subjectCode": "HCI",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.8",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Mathematics in the Modern World",
+                        "subjectCode": "GE 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "2.0",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Understanding the Self",
+                        "subjectCode": "GE 2",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.9",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Physical Fitness",
+                        "subjectCode": "PE 1",
+                        "units": "2",
+                        "preRequisite": "none",
+                        "finalGrade": "1.0",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Civil Welfare Training Service 1",
+                        "subjectCode": "CWTS 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.5",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "The Creed",
+                        "subjectCode": "THEO 2",
+                        "units": "3",
+                        "preRequisite": "THEO 1",
+                        "finalGrade": "1.4",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Computer Programming 2",
+                        "subjectCode": "PROG 2",
+                        "units": "3",
+                        "preRequisite": "PROG 1",
+                        "finalGrade": "1.3",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Discrete Mathematics 1",
+                        "subjectCode": "DIESCRETE 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.5",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Web Development 1",
+                        "subjectCode": "WEB 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.5",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Data Structures and Algorithms",
+                        "subjectCode": "DATASTRUCT 1",
+                        "units": "3",
+                        "preRequisite": "PROG 1",
+                        "finalGrade": "1.7",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Readings in Philippine History",
+                        "subjectCode": "GE 3",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.4",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Purposive Communication",
+                        "subjectCode": "GE 4",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.9",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Rhythmic Activities",
+                        "subjectCode": "PE 2",
+                        "units": "2",
+                        "preRequisite": "none",
+                        "finalGrade": "1.2",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Civil Welfare Training Service 2",
+                        "subjectCode": "CWTS 2",
+                        "units": "3",
+                        "preRequisite": "CWTS 1",
+                        "finalGrade": "1.6",
+                        "type": "minor"
+                    }
+                ],
+                "secondYear": [
+                    {
+                        "subjectName": "Church and Sacraments",
+                        "subjectCode": "THEO 3",
+                        "units": "3",
+                        "preRequisite": "THEO 2",
+                        "finalGrade": "1.6",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Object Oriented Programming",
+                        "subjectCode": "OOP",
+                        "units": "3",
+                        "preRequisite": "PROG 2",
+                        "finalGrade": "1.6",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Information Management",
+                        "subjectCode": "IM 1",
+                        "units": "3",
+                        "preRequisite": "PROG 2",
+                        "finalGrade": "1.7",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Fundamentals of Accounting",
+                        "subjectCode": "ACCTG",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.2",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Platform Technologies",
+                        "subjectCode": "PT",
+                        "units": "3",
+                        "preRequisite": "PROG 2",
+                        "finalGrade": "1.6",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "The Contemporary World",
+                        "subjectCode": "GE 5",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.2",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Art Appreciation",
+                        "subjectCode": "GE 6",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.7",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Living in the Digital Age",
+                        "subjectCode": "GEEL 1",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.3",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Individual/Dual Sports",
+                        "subjectCode": "PE 3",
+                        "units": "2",
+                        "preRequisite": "PE 2",
+                        "finalGrade": "1.9",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "The Commandments",
+                        "subjectCode": "THEO 4",
+                        "units": "3",
+                        "preRequisite": "THEO 3",
+                        "finalGrade": "1.4",
+                        "type": "minor"
+                    },
+                    {
+                        "subjectName": "Fundamentals of Database Systems",
+                        "subjectCode": "IM 2",
+                        "units": "3",
+                        "preRequisite": "IM 1",
+                        "finalGrade": "1.1",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Quantitative Methods",
+                        "subjectCode": "QM",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.6",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "Data Communications and Networking",
+                        "subjectCode": "",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.6",
+                        "type": "major"
+                    },
+                    {
+                        "subjectName": "",
+                        "subjectCode": "",
+                        "units": "3",
+                        "preRequisite": "none",
+                        "finalGrade": "1.6",
+                        "type": "major"
+                    }
+                ],
+            },
+            "awards": [
+                {
+                    "title": "Dean's Lister",
+                    "date": "2019-2020"
+                },
+                {
+                    "title": "Best in Robotics",
+                    "date": "2019-2020"
+                },
+                {
+                    "title": "Dean's Lister",
+                    "date": "2020-2021"
+                },
+                {
+                    "title": "Dean's Lister",
+                    "date": "2021-2022"
+                },
+                {
+                    "title": "Dean's Lister",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Outstanding Software Developer",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Outstanding IT Specialist",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Best in Capstone Project",
+                    "date": "2022-2023"
+                },
+                {
+                    "title": "Academic Excellence Award",
+                    "date": "2022-2023"
+                }
+            ]
+        },
+        "experience": [
+            {
+                "jobTitle": "Full Stack Web Developer",
+                "company": {
+                    "name": "Toledo City Government",
+                    "location": {
+                        "street": "Toledo City Hall",
+                        "baranggay": "Poblacion",
+                        "city": "Toledo City",
+                        "province": "Cebu",
+                        "country": "Philippines",
+                        "zip": "6038",
+                        "googlemaps": {
+                            "link": "https://goo.gl/maps/79qkPZz9W4mfrdwp6",
+                            "embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.0160260135935!2d123.58965907409929!3d10.340602267083257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a96ddcfe54e9e5%3A0xd52a6239447ac0d9!2sSan%20Vicente%20Ferrer%20Catholic%20Parish!5e0!3m2!1sen!2sph!4v1693820030140!5m2!1sen!2sph' width='600' height='450' style='border:0;' allowfullscreen=' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+                        }
+                    },
+                    "website": "https://sugbo.ph/2020/toledo-city-sports-center-megadome/",
+                    "description": "The Toledo City Government is the local government unit of the City of Toledo, Cebu, Philippines. It is responsible for the implementation of the city's laws and ordinances, as well as the delivery of basic public services to the city's residents.",
+                    "logo": {
+                        "src": "data:image/jpeg;base64,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",
+                        "alt": "Toledo City Government Logo"
+                    }
+                },
+                "from": "February 2023",
+                "to": "June 2023",
+                "duration": "5 months",
+                "responsibilies": [
+                    "Developed a website for the Toledo Sports Center Megadome using HTML, CSS, JavaScript, and PHP.",
+                    "Developed a website for the Toledo City Government using HTML, CSS, JavaScript, and PHP.",
+                    "Developed a website for the Toledo City Government using HTML, CSS, JavaScript, and PHP.",
+                ],
+                "salary": "₱ 10,000.00",
+                "currency": "PHP",
+                "type": "Part-time"
+            },
+            {
+                "jobTitle": "IT Support Specialist",
+                "company": {
+                    "name": "CEBECO III",
+                    "location": {
+                        "street": "Cebeco III Building",
+                        "baranggay": "Sangi",
+                        "city": "Toledo City",
+                        "province": "Cebu",
+                        "country": "Philippines",
+                        "zip": "6038",
+                        "googlemaps": {
+                            "link": "https://goo.gl/maps/79qkPZz9W4mfrdwp6",
+                            "embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.0160260135935!2d123.58965907409929!3d10.340602267083257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a96ddcfe54e9e5%3A0xd52a6239447ac0d9!2sSan%20Vicente%20Ferrer%20Catholic%20Parish!5e0!3m2!1sen!2sph!4v1693820030140!5m2!1sen!2sph' width='600' height='450' style='border:0;' allowfullscreen=' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+                        }
+                    },
+                    "website": "http://www.cebeco3.com.ph/",
+                    "description": "Cebu III Electric Cooperative, Inc. (CEBECO III) is a non-stock, non-profit electric cooperative organized on October 26, 1978 under the Rural Electrification Program of the National Electrification Administration (NEA). It is registered with the Cooperative Development Authority (CDA) and the National Electrification Administration (NEA).",
+                    "logo": {
+                        "src": "https://www.cebeco3.com/wp-content/uploads/2020/10/cebeco3-logo.png",
+                        "alt": "Cebeco III Logo"
+                    }
+                },
+                "from": "January 2023",
+                "to": "March 2023",
+                "duration": "3 months",
+                "responsibilies": [
+                    "Maintain and fix computer hardware and software issues.",
+                    "Assist employees with computer hardware and software issues.",
+                    "Report to the IT Manager for any issues and concerns."
+                ],
+                "salary": "₱ 0.00",
+                "currency": "PHP",
+                "type": "OJT / Internship"
+            }
+        ]
+    }
+}

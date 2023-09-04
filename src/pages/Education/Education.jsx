@@ -34,43 +34,6 @@ function Education() {
                     <ListGroup>
                         <ListGroupItem className="bg-transparent border-0 text-secondary">
                             <strong>
-                                1st Year
-                            </strong>
-                            <ul className="list-unstyled">
-                                <li>
-                                    <em>
-                                        Introduction to Computing
-                                    </em>
-                                </li>
-                                <li>
-                                    <em>
-                                        Computer Programming 1
-                                    </em>
-                                </li>
-                                <li>
-                                    <em>
-                                        Computer Programming 2
-                                    </em>
-                                </li>
-                                <li>
-                                    <em>
-                                        Human Computer Interaction
-                                    </em>
-                                </li>
-                                <li>
-                                    <em>
-                                        Web Development
-                                    </em>
-                                </li>
-                                <li>
-                                    <em>
-                                        Data Structure and Algorithm
-                                    </em>
-                                </li>
-                            </ul>
-                        </ListGroupItem>
-                        <ListGroupItem className="bg-transparent border-0 text-secondary">
-                            <strong>
                                 2nd Year
                             </strong>
                             <ul className="list-unstyled">
