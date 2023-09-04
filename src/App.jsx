@@ -1,8 +1,8 @@
 import "./App.css";
 import Home from "./pages/Home/Home";
 import Education from "./pages/Education/Education";
-import Skills from "./pages/Skills";
-import Experience from "./pages/Experience";
+import Skills from "./pages/Skills/Skills";
+import Experience from "./pages/Experience/Experience";
 import Header from "./components/Header/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "./pages/NotFound";

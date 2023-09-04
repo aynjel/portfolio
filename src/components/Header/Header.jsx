@@ -137,19 +137,19 @@ function Header() {
                         <Link to="/education">Education</Link>
                     </li>
                     <li>
-                        <Link to="/cs">Skills</Link>
+                        <Link to="/skills">Skills</Link>
                     </li>
                     <li>
                         <Link to="/cs">Projects</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/cs">Certifications</Link>
+                    </li> */}
+                    <li>
+                        <Link to="/experience">Experience</Link>
                     </li>
                     <li>
-                        <Link to="/cs">Experience</Link>
-                    </li>
-                    <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/cs">Blog</Link>
                     </li>
                 </ul>
             </nav>
@@ -167,19 +167,19 @@ function Header() {
                         <Link to="/education">Education</Link>
                     </li>
                     <li>
-                        <Link to="/cs">Skills</Link>
+                        <Link to="/skills">Skills</Link>
                     </li>
                     <li>
                         <Link to="/cs">Projects</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/cs">Certifications</Link>
+                    </li> */}
+                    <li>
+                        <Link to="/experience">Experience</Link>
                     </li>
                     <li>
-                        <Link to="/cs">Experience</Link>
-                    </li>
-                    <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/cs">Blog</Link>
                     </li>
                 </ul>
             </nav>
