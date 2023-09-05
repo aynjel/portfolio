@@ -8,7 +8,7 @@
         "age": "23",
         "birthday": "July 13, 2000",
         "image": {
-            "src": "https://uc1caba1143e02d6b200c958df77.previews.dropboxusercontent.com/p/thumb/ACAbr2uwML8J8M3lPAkJ4VoTJ4QvCDdfaw0RzSDPUPeUQ1wohRjXJfzxV_dxwzWDbMiPDkPLQMN4KcaDH2I2NkWhH_Y5I35uEjhNN_H3jw0rBHepvsvzntz8nGw5Yw-mL3f92ghlrhA3TzfrQD-4-vX3VyBoIoLkMFWdsbNFG1hBpMT0IKPIhm8SfBqY2MUpHXihiSH2tZUDozaFzP4Qu-CqVOJNTMyhG0sW_ZT21ZvUREvhiz6SjOtHCXTHt8J7Whz8yOUGeG82jN-Lu8njCli6UfWGDQkC0E_mzsVDzExblIHjcN8TrMvsEhE04PE2EfIS2PsRLib2YzEQNK6r3O9-9htTKa9KSPG6fbwb0yq4W0SZVTq4Zbuo1uXHIZk727A/p.jpeg",
+            "src": "https://lh3.googleusercontent.com/pw/AIL4fc-vtoOl3OIgpDwT5Rfod46GPo_gBn6Vc-dmsY_txqOoPAzjFVQXRlr_Y74_BXU2bmJVdRts2bw8nkTDFwFV9X0R29IMAKSXHCojslEbdfl_PVAFeqhL1qY4Y2jyCU8Py5JpY-kjLitdIvZLD0w6kbyKHjoCLmZoA1rF1mqKo3wncYL_Y_kqIf8Vgh-B92DrbjAh4yTwDUlW2boDAgmfiOaA22Yqu0vtcXa51tDMI0PAts1eNQEVmklOb3yiHYW66pM6BDct550-F0q4B17UGexBmuzbBvkny8yCXBSjPWbraQqEyVv1DYIl3NJS3_DEl-P3wj-cNQ1x6q-zJCjwK-3sledGTNyNp3vyqhUcH8LliBrjxmegfKc5jUpMFoGVh8H2YqLtyGq8aTqz-5NIXtiq9SoOcOlsAUny6v8ihJdvyVgWklTNHrubylpoJ_LiiqEHl201I7yF3X5_NWPSCXukOqUsbuspczwezqnWEshuBJ7aThVTXT_0Mc1KjaPfHYutmQ8L6gOGn3NOKkioU0_G-szkBUJSgOnwdjOC6H8UeLERDg7lTuqpE8DAA5FkE_paszmrgHYssWKWBYrdylvf2Vd2u7dyDYNyIV1vLXMt7-fsy5Mi0_gpnpOLZxsNtDVuH5rcnXHBHJSvxX42vQjIn0nUGwUxt5aV6uN6Lysj2IJa0RXDCmU68Wxl32qXq63pGmzbDrmeprwv5FZBbHTE2DLs6fgw7rekZSX9nc822G9afvvxwqSfCXHPUvHD79X_YMW6oiz5AJH9u0gFF8WzouRwiZw1DQMpF5MT6SwSgt-fpOqP4GPFSYRzyoTpbUiQo4wA0vR2zFBvVzjM0rAxrQu-sOT2faujzxIZapKrDN723g7piZwM0NihamWI9eaNfIFp1FNYa4yxspkgQ4ZQy1CDFQqJprROxnqN8S6B-PlPmTxNsHwpTIQC2AIoNQNnt_0tgLR_qwq7XByVsNMfcTFkLvixtiW4LkjgN15wV7CahqhM_ae5BnwSL2Kafg=w643-h643-s-no?authuser=0",
             "alt": "My Photo | Angel Niño C. Ortega"
         },
         "location": {
@@ -26,234 +26,267 @@
         "contact": {
             "number": "+639123456789",
             "email": "ortegacanillo76@gmail.com"
+        },
+        "jobDev": {
+            "position": "Full Stack Developer",
+            "description": "Hi I am Angel Niño Ortega, I seek to obtain a position as a Full Stack Web Developer in a company where I can maximize my skills in web development, leadership, and problem solving, and at the same time, contribute to the success of the company. I am a graduate of Bachelor of Science in Information Technology at the Consolatrix College of Toledo City. I am also a self-taught programmer and I am always eager to learn new technologies and skills.",
+            "resume": "https://www.canva.com/design/DAFtHdMtW8Q/IfhLn_NluCi-AG4odvuj5Q/edit?utm_content=DAFtHdMtW8Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            "contact": {
+                "number": "+639123456789",
+                "email": "ortegacanillo76@gmail.com"
+            }
         }
     },
     "socials": [
         {
+            "name": "GitHub",
             "link": "https://github.com/aynjel",
             "username": "aynjel",
             "icon": ""
         },
         {
+            "name": "Facebook",
             "link": "https://www.facebook.com/angelortega76",
             "username": "angelortega76",
             "icon": ""
         },
         {
+            "name": "Twitter",
             "link": "https://twitter.com/angelortega76",
             "username": "angelortega76",
             "icon": ""
         },
         {
+            "name": "Instagram",
             "link": "https://www.instagram.com/angelortega76",
             "username": "angelortega76",
             "icon": ""
         },
         {
+            "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/angelortega76",
             "username": "angelortega76",
             "icon": ""
         },
         {
+            "name": "YouTube",
             "link": "https://www.youtube.com/channel/UC1caba1143e02d6b200c958df77",
             "username": "angelortega76",
             "icon": ""
         }
     ],
-    "skills": {
-        "programmingLanguages": [
-            {
-                "name": "HTML",
-                "icon": "icon.svg#html5",
-                "level": "95",
-                "description": "HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser."
-            },
-            {
-                "name": "CSS",
-                "icon": "icon.svg#css3",
-                "level": "90",
-                "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML."
-            },
-            {
-                "name": "JavaScript",
-                "icon": "icon.svg#javascript",
-                "level": "80",
-                "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification."
-            },
-            {
-                "name": "PHP",
-                "icon": "icon.svg#php",
-                "level": "75",
-                "description": "PHP is a general-purpose scripting language especially suited to web development."
-            }
-        ],
-        "frameworksAndLibraries": [
-            {
-                "name": "Laravel",
-                "icon": "icon.svg#laravel",
-                "level": "60",
-                "description": "Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony."
-            },
-            {
-                "name": "NodeJS",
-                "icon": "icon.svg#nodejs",
-                "level": "80",
-                "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser."
-            },
-            {
-                "name": "React",
-                "icon": "icon.svg#react",
-                "level": "70",
-                "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components."
-            },
-            {
-                "name": "Bootstrap",
-                "icon": "icon.svg#bootstrap",
-                "level": "90",
-                "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
-            },
-            {
-                "name": "TailwindCSS",
-                "icon": "icon.svg#tailwindcss",
-                "level": "80",
-                "description": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
-            }
-        ],
-        "tools": [
-            {
-                "name": "Git",
-                "icon": "icon.svg#git",
-                "level": "90",
-                "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development."
-            },
-            {
-                "name": "Visual Studio Code",
-                "icon": "icon.svg#visualstudiocode",
-                "level": "90",
-                "description": "Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS."
-            },
-            {
-                "name": "GitHub",
-                "icon": "icon.svg#github",
-                "level": "90",
-                "description": "GitHub is a provider of Internet hosting for software development and version control using Git."
-            },
-            {
-                "name": "Trello",
-                "icon": "icon.svg#trello",
-                "level": "90",
-                "description": "Trello is a web-based Kanban-style list-making application which is a subsidiary of Atlassian."
-            },
-            {
-                "name": "NPM",
-                "icon": "icon.svg#npm",
-                "level": "90",
-                "description": "npm is a package manager for the JavaScript programming language."
-            },
-            {
-                "name": "PowerShell",
-                "icon": "icon.svg#powershell",
-                "level": "90",
-                "description": "PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and the associated scripting language."
-            }
-        ],
-        "databases": [
-            {
-                "name": "MySQL",
-                "icon": "icon.svg#mysql",
-                "level": "90",
-                "description": "MySQL is an open-source relational database management system."
-            },
-            {
-                "name": "MongoDB",
-                "icon": "icon.svg#mongodb",
-                "level": "90",
-                "description": "MongoDB is a source-available cross-platform document-oriented database program."
-            },
-            {
-                "name": "Firebase",
-                "icon": "icon.svg#firebase",
-                "level": "90",
-                "description": "Firebase is a platform developed by Google for creating mobile and web applications."
-            }
-        ],
-        "design": [
-            {
-                "name": "Adobe Photoshop",
-                "icon": "icon.svg#adobephotoshop",
-                "level": "90",
-                "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS."
-            },
-            {
-                "name": "Adobe Illustrator",
-                "icon": "icon.svg#adobeillustrator",
-                "level": "90",
-                "description": "Adobe Illustrator is a vector graphics editor and design program developed and marketed by Adobe Inc."
-            },
-            {
-                "name": "Adobe XD",
-                "icon": "icon.svg#adobexd",
-                "level": "90",
-                "description": "Adobe XD is a vector-based user experience design tool for web apps and mobile apps, developed and published by Adobe Inc."
-            },
-            {
-                "name": "Adobe Premiere Pro",
-                "icon": "icon.svg#adobepremiere",
-                "level": "90",
-                "description": "Adobe Premiere Pro is a timeline-based video editing software application developed by Adobe Inc. and published as part of the Adobe Creative Cloud licensing program."
-            },
-            {
-                "name": "Adobe After Effects",
-                "icon": "icon.svg#adobeaftereffects",
-                "level": "90",
-                "description": "Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed by Adobe Inc. and used in the post-production process of film making, video games and television production."
-            },
-            {
-                "name": "Adobe InDesign",
-                "icon": "icon.svg#adobeindesign",
-                "level": "90",
-                "description": "Adobe InDesign is a desktop publishing and typesetting software application produced by Adobe Inc."
-            },
-            {
-                "name": "Figma",
-                "icon": "icon.svg#figma",
-                "level": "90",
-                "description": "Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows."
-            }
-        ],
-        "others": [
-            {
-                "name": "Microsoft Office",
-                "icon": "icon.svg#microsoftoffice",
-                "level": "90",
-                "description": "Microsoft Office is a family of client software, server software, and services developed by Microsoft."
-            },
-            {
-                "name": "Google Workspace",
-                "icon": "icon.svg#googleworkspace",
-                "level": "90",
-                "description": "Google Workspace is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google."
-            },
-            {
-                "name": "Windows",
-                "icon": "icon.svg#windows",
-                "level": "90",
-                "description": "Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft."
-            },
-            {
-                "name": "Linux",
-                "icon": "icon.svg#linux",
-                "level": "90",
-                "description": "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds."
-            },
-            {
-                "name": "MacOS",
-                "icon": "icon.svg#macos",
-                "level": "90",
-                "description": "macOS is a series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001."
-            }
-        ]
-    },
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "items": [
+                {
+                    "name": "HTML",
+                    "icon": "icon.svg#html5",
+                    "level": "95",
+                    "description": "HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser."
+                },
+                {
+                    "name": "CSS",
+                    "icon": "icon.svg#css3",
+                    "level": "90",
+                    "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML."
+                },
+                {
+                    "name": "JavaScript",
+                    "icon": "icon.svg#javascript",
+                    "level": "80",
+                    "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification."
+                },
+                {
+                    "name": "PHP",
+                    "icon": "icon.svg#php",
+                    "level": "75",
+                    "description": "PHP is a general-purpose scripting language especially suited to web development."
+                }
+            ]
+        },
+        {
+            "name": "Frameworks and Libraries",
+            "items": [
+                {
+                    "name": "Laravel",
+                    "icon": "icon.svg#laravel",
+                    "level": "60",
+                    "description": "Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony."
+                },
+                {
+                    "name": "NodeJS",
+                    "icon": "icon.svg#nodejs",
+                    "level": "80",
+                    "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser."
+                },
+                {
+                    "name": "React",
+                    "icon": "icon.svg#react",
+                    "level": "70",
+                    "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components."
+                },
+                {
+                    "name": "Bootstrap",
+                    "icon": "icon.svg#bootstrap",
+                    "level": "90",
+                    "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
+                },
+                {
+                    "name": "TailwindCSS",
+                    "icon": "icon.svg#tailwindcss",
+                    "level": "80",
+                    "description": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
+                }
+            ]
+        },
+        {
+            "name": "Tools",
+            "items": [
+                {
+                    "name": "Git",
+                    "icon": "icon.svg#git",
+                    "level": "90",
+                    "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development."
+                },
+                {
+                    "name": "Visual Studio Code",
+                    "icon": "icon.svg#visualstudiocode",
+                    "level": "90",
+                    "description": "Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS."
+                },
+                {
+                    "name": "GitHub",
+                    "icon": "icon.svg#github",
+                    "level": "90",
+                    "description": "GitHub is a provider of Internet hosting for software development and version control using Git."
+                },
+                {
+                    "name": "Trello",
+                    "icon": "icon.svg#trello",
+                    "level": "90",
+                    "description": "Trello is a web-based Kanban-style list-making application which is a subsidiary of Atlassian."
+                },
+                {
+                    "name": "NPM",
+                    "icon": "icon.svg#npm",
+                    "level": "90",
+                    "description": "npm is a package manager for the JavaScript programming language."
+                },
+                {
+                    "name": "PowerShell",
+                    "icon": "icon.svg#powershell",
+                    "level": "90",
+                    "description": "PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and the associated scripting language."
+                }
+            ]
+        },
+        {
+            "name": "Databases",
+            "items": [
+                {
+                    "name": "MySQL",
+                    "icon": "icon.svg#mysql",
+                    "level": "90",
+                    "description": "MySQL is an open-source relational database management system."
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "icon.svg#mongodb",
+                    "level": "90",
+                    "description": "MongoDB is a source-available cross-platform document-oriented database program."
+                },
+                {
+                    "name": "Firebase",
+                    "icon": "icon.svg#firebase",
+                    "level": "90",
+                    "description": "Firebase is a platform developed by Google for creating mobile and web applications."
+                }
+            ]
+        },
+        {
+            "name": "Design",
+            "items": [
+                {
+                    "name": "Adobe Photoshop",
+                    "icon": "icon.svg#adobephotoshop",
+                    "level": "90",
+                    "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS."
+                },
+                {
+                    "name": "Adobe Illustrator",
+                    "icon": "icon.svg#adobeillustrator",
+                    "level": "90",
+                    "description": "Adobe Illustrator is a vector graphics editor and design program developed and marketed by Adobe Inc."
+                },
+                {
+                    "name": "Adobe XD",
+                    "icon": "icon.svg#adobexd",
+                    "level": "90",
+                    "description": "Adobe XD is a vector-based user experience design tool for web apps and mobile apps, developed and published by Adobe Inc."
+                },
+                {
+                    "name": "Adobe Premiere Pro",
+                    "icon": "icon.svg#adobepremiere",
+                    "level": "90",
+                    "description": "Adobe Premiere Pro is a timeline-based video editing software application developed by Adobe Inc. and published as part of the Adobe Creative Cloud licensing program."
+                },
+                {
+                    "name": "Adobe After Effects",
+                    "icon": "icon.svg#adobeaftereffects",
+                    "level": "90",
+                    "description": "Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed by Adobe Inc. and used in the post-production process of film making, video games and television production."
+                },
+                {
+                    "name": "Adobe InDesign",
+                    "icon": "icon.svg#adobeindesign",
+                    "level": "90",
+                    "description": "Adobe InDesign is a desktop publishing and typesetting software application produced by Adobe Inc."
+                },
+                {
+                    "name": "Figma",
+                    "icon": "icon.svg#figma",
+                    "level": "90",
+                    "description": "Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows."
+                }
+            ]
+        },
+        {
+            "name": "Others",
+            "items": [
+                {
+                    "name": "Microsoft Office",
+                    "icon": "icon.svg#microsoftoffice",
+                    "level": "90",
+                    "description": "Microsoft Office is a family of client software, server software, and services developed by Microsoft."
+                },
+                {
+                    "name": "Google Workspace",
+                    "icon": "icon.svg#googleworkspace",
+                    "level": "90",
+                    "description": "Google Workspace is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google."
+                },
+                {
+                    "name": "Windows",
+                    "icon": "icon.svg#windows",
+                    "level": "90",
+                    "description": "Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft."
+                },
+                {
+                    "name": "Linux",
+                    "icon": "icon.svg#linux",
+                    "level": "90",
+                    "description": "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds."
+                },
+                {
+                    "name": "MacOS",
+                    "icon": "icon.svg#macos",
+                    "level": "90",
+                    "description": "macOS is a series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001."
+                }
+            ]
+        }
+    ],
     "education": {
         "schools": [
             {
@@ -273,7 +306,7 @@
                 },
                 "website": "http://cctc.edu.ph/",
                 "logo": {
-                    "src": "http://cctc.edu.ph/templates/jl_learnmate_lite/custom/images/Group%2010.svg",
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMIhViF8XIJqUT0wOFhFHptFGstzUXy0P2SZ1GwXLBQ&s",
                     "alt": "Consolatrix College of Toledo City, Inc. Logo"
                 },
                 "year": "2019-2023",
@@ -296,7 +329,7 @@
                 },
                 "website": "http://cctc.edu.ph/",
                 "logo": {
-                    "src": "http://cctc.edu.ph/templates/jl_learnmate_lite/custom/images/Group%2010.svg",
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMIhViF8XIJqUT0wOFhFHptFGstzUXy0P2SZ1GwXLBQ&s",
                     "alt": "Consolatrix College of Toledo City, Inc. Logo"
                 },
                 "year": "2016-209",
@@ -342,7 +375,7 @@
                 },
                 "website": "https://www.facebook.com/batoelementaryschool2017/",
                 "logo": {
-                    "src": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.6435-9/122820820_102222931831745_680680680577577607_n.jpg?_nc_cat=",
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJYmwJagvs5v9JHzj7zzwbbPfKKleHVKdiwdstR8o&s",
                     "alt": "Bato Elementary School Logo"
                 },
                 "year": "2007-2012",
@@ -352,13 +385,33 @@
         "course": {
             "name": "Bachelor of Science in Information Technology",
             "code": "BSIT",
-            "from": "2019",
-            "to": "2023",
+            "from": "June 2019",
+            "to": "May 2023",
             "duration": "4 years",
             "units": "200",
-            "school": "Consolatrix College of Toledo City, Inc.",
-            "description": "The Bachelor of Science in Information Technology (BSIT) program prepares students to be IT professionals who are able to perform installation, operation, development, maintenance and administration of computer applications. The goal of the program is to gear up students as information technologists who can assist individuals and organizations in solving problems using information technology (IT) techniques.",
-            "major": "Computer System and Network Technology"
+            "major": "Computer System and Network Technology",
+            "school": {
+                "name": "Consolatrix College of Toledo City, Inc.",
+                "description": "The Bachelor of Science in Information Technology (BSIT) program prepares students to be IT professionals who are able to perform installation, operation, development, maintenance and administration of computer applications. The goal of the program is to gear up students as information technologists who can assist individuals and organizations in solving problems using information technology (IT) techniques.",
+                "website": "http://cctc.edu.ph/",
+                "logo": {
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMIhViF8XIJqUT0wOFhFHptFGstzUXy0P2SZ1GwXLBQ&s",
+                    "alt": "Consolatrix College of Toledo City, Inc. Logo"
+                },
+                "year": "2019-2023",
+                "location": {
+                    "street": "Magsaysay Hills",
+                    "baranggay": "Poblacion",
+                    "city": "Toledo City",
+                    "province": "Cebu",
+                    "country": "Philippines",
+                    "zip": "6038",
+                    "googlemaps": {
+                        "link": "https://goo.gl/maps/79qkPZz9W4mfrdwp6",
+                        "embed": "<iframe src=''https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.0160260135935!2d123.58965907409929!3d10.340602267083257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a96ddcfe54e9e5%3A0xd52a6239447ac0d9!2sSan%20Vicente%20Ferrer%20Catholic%20Parish!5e0!3m2!1sen!2sph!4v1693820030140!5m2!1sen!2sph'' width=''600'' height=''450'' style=''border:0;'' allowfullscreen='' loading=''lazy'' referrerpolicy=''no-referrer-when-downgrade''></iframe>"
+                    }
+                }
+            }
         },
         "subjects": {
             "firstYear": [

@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
 :root {
     --primary-color: #27374D;
@@ -23,8 +22,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#root{
+#root {
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
+    height: 100%;
+    background-color: var(--quinary-color);
 }

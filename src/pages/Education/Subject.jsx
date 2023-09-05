@@ -1,96 +1,102 @@
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import data from "../../data/data.json";
 
-const Component = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid var(--quaternary-color);
-    height: 100%;
-    padding: 1rem;
-
-    h3 {
-        font-size: 1.2rem;
-        font-weight: 500;
-        color: var(--secondary-color);
-    }
-
-    .subjects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 0;
-    }
-
-    li {
-        font-size: 1rem;
-        font-weight: 400;
-        color: var(--secondary-color);
-    }
-
-    &:not(:last-child) {
-        margin-bottom: 1rem;
-    }
-`
-
-function Subject({ data }) {
+function Subject() {
     return (
-        <Component>
-            <div className="subjects">
-                <h3>First Year Subjects</h3>
-                <ul>
-                    {data.firstYear.map((subject, index) => (
-                        <li key={index}>
-                            {subject.subjectName}
+        <div className="flex flex-col justify-center items-center w-full gap-10">
+            <div className="flex flex-col justify-center items-center w-full gap-5 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-5">
+                <h3 className="text-xl font-bold text-center dark:text-gray-600 md:text-2xl">
+                    First Year Subjects
+                </h3>
+                <hr className="border-gray-200 dark:border-gray-700 w-full" />
+                <ul className="flex flex-col justify-center items-center w-full gap-10">
+                    {data.education.subjects.firstYear.map((subject) => (
+                        <li key={subject.name} className="text-gray-800 dark:text-gray-600 text-lg flex flex-col justify-center items-center w-full gap-5">
+                            <h4 className="text-lg font-bold text-center dark:text-gray-600 md:text-xl">
+                                {subject.subjectName} - {subject.subjectCode} ({subject.type})
+                            </h4>
+                            <ul className="flex flex-row justify-center items-center w-full gap-5">
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Units: {subject.units}
+                                </li>
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Grade: {subject.finalGrade}
+                                </li>
+                            </ul>
                         </li>
                     ))}
                 </ul>
             </div>
-            <div className="subjects">
-                <h3>Second Year Subjects</h3>
-                <ul>
-                    {data.secondYear.map((subject, index) => (
-                        <li key={index}>
-                            {subject.subjectName}
+            <div className="flex flex-col justify-center items-center w-full gap-5 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-5">
+                <h3 className="text-xl font-bold text-center dark:text-gray-600 md:text-2xl">
+                    Second Year Subjects
+                </h3>
+                <hr className="border-gray-200 dark:border-gray-700 w-full" />
+                <ul className="flex flex-col justify-center items-center w-full gap-10">
+                    {data.education.subjects.secondYear.map((subject) => (
+                        <li key={subject.name} className="text-gray-800 dark:text-gray-600 text-lg flex flex-col justify-center items-center w-full gap-5">
+                            <h4 className="text-lg font-bold text-center dark:text-gray-600 md:text-xl">
+                                {subject.subjectName} - {subject.subjectCode} ({subject.type})
+                            </h4>
+                            <ul className="flex flex-row justify-center items-center w-full gap-5">
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Units: {subject.units}
+                                </li>
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Grade: {subject.finalGrade}
+                                </li>
+                            </ul>
                         </li>
                     ))}
                 </ul>
             </div>
-            <div className="subjects">
-                <h3>Third Year Subjects</h3>
-                <ul>
-                    {data.thirdYear.map((subject, index) => (
-                        <li key={index}>
-                            {subject.subjectName}
+            <div className="flex flex-col justify-center items-center w-full gap-5 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-5">
+                <h3 className="text-xl font-bold text-center dark:text-gray-600 md:text-2xl">
+                    Third Year Subjects
+                </h3>
+                <hr className="border-gray-200 dark:border-gray-700 w-full" />
+                <ul className="flex flex-col justify-center items-center w-full gap-10">
+                    {data.education.subjects.thirdYear.map((subject) => (
+                        <li key={subject.name} className="text-gray-800 dark:text-gray-600 text-lg flex flex-col justify-center items-center w-full gap-5">
+                            <h4 className="text-lg font-bold text-center dark:text-gray-600 md:text-xl">
+                                {subject.subjectName} - {subject.subjectCode} ({subject.type})
+                            </h4>
+                            <ul className="flex flex-row justify-center items-center w-full gap-5">
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Units: {subject.units}
+                                </li>
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Grade: {subject.finalGrade}
+                                </li>
+                            </ul>
                         </li>
                     ))}
                 </ul>
             </div>
-            <div className="subjects">
-                <h3>Fourth Year Subjects</h3>
-                <ul>
-                    {data.fourthYear.map((subject, index) => (
-                        <li key={index}>
-                            {subject.subjectName}
+            <div className="flex flex-col justify-center items-center w-full gap-5 border-2 border-gray-200 dark:border-gray-700 rounded-lg p-5">
+                <h3 className="text-xl font-bold text-center dark:text-gray-600 md:text-2xl">
+                    Fourth Year Subjects
+                </h3>
+                <hr className="border-gray-200 dark:border-gray-700 w-full" />
+                <ul className="flex flex-col justify-center items-center w-full gap-10">
+                    {data.education.subjects.fourthYear.map((subject) => (
+                        <li key={subject.name} className="text-gray-800 dark:text-gray-600 text-lg flex flex-col justify-center items-center w-full gap-5">
+                            <h4 className="text-lg font-bold text-center dark:text-gray-600 md:text-xl">
+                                {subject.subjectName} - {subject.subjectCode} ({subject.type})
+                            </h4>
+                            <ul className="flex flex-row justify-center items-center w-full gap-5">
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Units: {subject.units}
+                                </li>
+                                <li className="text-gray-800 dark:text-gray-600 text-lg">
+                                    Grade: {subject.finalGrade}
+                                </li>
+                            </ul>
                         </li>
                     ))}
                 </ul>
             </div>
-        </Component>
+        </div>
     );
-}
-
-Subject.propTypes = {
-    data: PropTypes.object.isRequired
 }
 
 export default Subject

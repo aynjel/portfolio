@@ -1,76 +1,23 @@
-import PropTypes from 'prop-types';
-import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import data from "../../data/data.json";
 
-const Component = styled.section`
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 2rem 0;
-
-    h2{
-        font-size: 2rem;
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
-    ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-
-        li{
-            margin: 0 1rem;
-
-            a{
-                display: block;
-                width: 3rem;
-                height: 3rem;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                transition: all 0.3s ease-in-out;
-
-                &:hover{
-                    background-color: var(--primary-color);
-                }
-
-                svg{
-                    width: 2rem;
-                    height: 2rem;
-                }
-            }
-        }
-    }
-`
-
-function Contact({data}) {
+function Contact() {
     return (
-        <Component>
-            <h2>
+        <div className="bg-gray-100 flex flex-col justify-center items-center p-20 gap-10">
+            <h2 className="text-2xl font-bold text-center text-gray-800 md:text-3xl">
                 Connect with me
             </h2>
-            <ul>
+            <ul className="flex flex-wrap justify-center items-center w-full gap-5">
                 {data.socials.map(social => (
-                    <li key={social.id} title={social.username}>
-                        <Link to={social.link} target="_blank" rel="noreferrer" title={social.name}>
-                            <svg width="60" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                <use xlinkHref={social.icon} />
-                            </svg>
+                    <li key={social.name} className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold py-2 px-4 rounded">
+                        <Link to={social.link} target="_blank" rel="noreferrer" className="hover:text-gray-500">
+                            {social.name}
                         </Link>
                     </li>
                 ))}
             </ul>
-        </Component>
+        </div>
     )
-}
-
-Contact.propTypes = {
-    data: PropTypes.array.isRequired
 }
 
 export default Contact

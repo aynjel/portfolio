@@ -1,190 +1,68 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import { FaCode, FaBars, FaTimes } from "react-icons/fa";
-import styled from "styled-components"
-
-const Component = styled.header`
-    background-color: var(--quinary-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-    nav {
-        padding: 1.4rem 0;
-        max-width: 1158px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 0.7rem;
-
-        a[href="/"] {
-            text-decoration: none;
-            color: var(--secondary-color);
-            font-weight: 800;
-            font-family: 'Raleway', sans-serif;
-            font-size: 1.5rem;
-            display: flex;
-            align-items: center;
-            &:hover {
-                color: var(--primary-color);
-            }
-            svg {
-                margin-right: 0.5rem;
-                color: var(--primary-color);
-            }
-        }
-        .nav-list {
-            list-style: none;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            gap: 1.2rem;
-            padding: 0;
-            li {
-                a {
-                    text-decoration: none;
-                    color: var(--secondary-color);
-                    font-weight: 500;
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 1.2rem;
-                    &:hover {
-                        color: var(--primary-color);
-                        border-bottom: 3px solid var(--primary-color);
-                    }
-                }
-            }
-        }
-    }
-
-    #mobile-menu {
-        display: none;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1.4rem 1rem;
-        font-size: 1.5rem;
-        color: var(--primary-color);
-        cursor: pointer;
-
-        #mobile-menu-button {
-            font-size: 1.5rem;
-            color: var(--secondary-color);
-            background-color: transparent;
-            border: none;
-            outline: none;
-            cursor: pointer;
-
-            &:hover {
-                color: var(--primary-color);
-            }
-        }
-        #mobile-menu-list {
-            list-style: none;
-            display: none;
-            justify-content: flex-end;
-            align-items: flex-start;
-            flex-direction: column;
-            gap: 0.5rem;
-            position: absolute;
-            top: 1.5rem;
-            right: 1.5rem;
-            background-color: var(--white-color);
-            border: 1px solid var(--tertiary-color);
-            border-radius: 0.5rem;
-            padding: 1rem;
-            z-index: 10;
-            li {
-                a {
-                    text-decoration: none;
-                    color: var(--secondary-color);
-                    font-weight: 500;
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 1.2rem;
-                    &:hover {
-                        color: var(--primary-color);
-                        border-bottom: 3px solid var(--primary-color);
-                    }
-                }
-            }
-        }
-    }
-    
-    @media screen and (max-width: 800px) {
-        #mobile-menu {
-            display: flex;
-        }
-        nav {
-            display: none;
-        }
-    }
-`;
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
 
-    const [mobileMenu, setMobileMenu] = useState(false)
+    const [navMenu, setNavMenu] = useState(false)
 
-    function toggleMobileMenu() {
-        setMobileMenu(!mobileMenu)
+    function toggleNavMenu() {
+        setNavMenu(!navMenu)
     }
     
     return (
-        <Component>
-            <nav>
-                <Link to="/">
-                    <FaCode />
-                    Portfolio
-                </Link>
-                <ul className="nav-list">
-                    <li>
-                        <Link to="/education">Education</Link>
-                    </li>
-                    <li>
-                        <Link to="/skills">Skills</Link>
-                    </li>
-                    <li>
-                        <Link to="/cs">Projects</Link>
-                    </li>
-                    {/* <li>
-                        <Link to="/cs">Certifications</Link>
-                    </li> */}
-                    <li>
-                        <Link to="/experience">Experience</Link>
-                    </li>
-                    <li>
-                        <Link to="/cs">Blog</Link>
-                    </li>
-                </ul>
-            </nav>
-            
-            <nav id="mobile-menu">
-                <Link to="/">
-                    <FaCode />
-                    Portfolio
-                </Link>
-                <button id="mobile-menu-button" onClick={toggleMobileMenu}>
-                    {mobileMenu ? <FaTimes /> : <FaBars />}
+        <nav className="bg-white border-gray-200 dark:bg-gray-900">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="/" className="flex items-center">
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                        <span className="text-blue-500">My</span>Portfolio
+                    </span>
+                </a>
+
+                <button
+                    type="button"
+                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    onClick={toggleNavMenu}
+                >
+                    <span className="sr-only">Open main menu</span>
+                    <FaBars className={`${navMenu ? 'hidden' : 'block w-6 h-6'}`} />
+                    <FaTimes className={`${navMenu ? 'block w-6 h-6' : 'hidden'}`} />
                 </button>
-                <ul id="mobile-menu-list" style={{display: mobileMenu ? "flex" : "none"}}>
-                    <li>
-                        <Link to="/education">Education</Link>
-                    </li>
-                    <li>
-                        <Link to="/skills">Skills</Link>
-                    </li>
-                    <li>
-                        <Link to="/cs">Projects</Link>
-                    </li>
-                    {/* <li>
-                        <Link to="/cs">Certifications</Link>
-                    </li> */}
-                    <li>
-                        <Link to="/experience">Experience</Link>
-                    </li>
-                    <li>
-                        <Link to="/cs">Blog</Link>
-                    </li>
-                </ul>
-            </nav>
-        </Component>
-    )
+                
+                <div className={`${
+                    navMenu ? 'flex' : 'hidden'
+                } w-full md:inline-flex md:flex-grow md:w-auto`}>
+                    <ul className="flex flex-col items-center md:inline-flex md:flex-row md:ml-auto md:w-auto w-full md:items-center md:justify-center text-base font-semibold gap-5">
+                        <li>
+                            <Link to="/education" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 hover:border-b-2 hover:border-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Education
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/experience" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 hover:border-b-2 hover:border-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Experience
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/projects" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 hover:border-b-2 hover:border-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Projects
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/blog" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 hover:border-b-2 hover:border-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Blog
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/contact" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 hover:border-b-2 hover:border-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Contact
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    );
 }
 
 export default Header
