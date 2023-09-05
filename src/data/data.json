@@ -64,125 +64,193 @@
         "programmingLanguages": [
             {
                 "name": "HTML",
-                "level": "95"
+                "icon": "icon.svg#html5",
+                "level": "95",
+                "description": "HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser."
             },
             {
                 "name": "CSS",
-                "level": "90"
+                "icon": "icon.svg#css3",
+                "level": "90",
+                "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML."
             },
             {
                 "name": "JavaScript",
-                "level": "80"
+                "icon": "icon.svg#javascript",
+                "level": "80",
+                "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification."
             },
             {
                 "name": "PHP",
-                "level": "75"
+                "icon": "icon.svg#php",
+                "level": "75",
+                "description": "PHP is a general-purpose scripting language especially suited to web development."
             }
         ],
         "frameworksAndLibraries": [
             {
                 "name": "Laravel",
-                "level": "60"
+                "icon": "icon.svg#laravel",
+                "level": "60",
+                "description": "Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony."
             },
             {
                 "name": "NodeJS",
-                "level": "80"
+                "icon": "icon.svg#nodejs",
+                "level": "80",
+                "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser."
             },
             {
                 "name": "React",
-                "level": "70"
+                "icon": "icon.svg#react",
+                "level": "70",
+                "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components."
             },
             {
                 "name": "Bootstrap",
-                "level": "90"
+                "icon": "icon.svg#bootstrap",
+                "level": "90",
+                "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
+            },
+            {
+                "name": "TailwindCSS",
+                "icon": "icon.svg#tailwindcss",
+                "level": "80",
+                "description": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
             }
         ],
         "tools": [
             {
                 "name": "Git",
-                "level": "90"
+                "icon": "icon.svg#git",
+                "level": "90",
+                "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development."
             },
             {
                 "name": "Visual Studio Code",
-                "level": "90"
+                "icon": "icon.svg#visualstudiocode",
+                "level": "90",
+                "description": "Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS."
             },
             {
                 "name": "GitHub",
-                "level": "90"
+                "icon": "icon.svg#github",
+                "level": "90",
+                "description": "GitHub is a provider of Internet hosting for software development and version control using Git."
             },
             {
                 "name": "Trello",
-                "level": "90"
+                "icon": "icon.svg#trello",
+                "level": "90",
+                "description": "Trello is a web-based Kanban-style list-making application which is a subsidiary of Atlassian."
             },
             {
                 "name": "NPM",
-                "level": "90"
+                "icon": "icon.svg#npm",
+                "level": "90",
+                "description": "npm is a package manager for the JavaScript programming language."
             },
             {
                 "name": "PowerShell",
-                "level": "90"
+                "icon": "icon.svg#powershell",
+                "level": "90",
+                "description": "PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and the associated scripting language."
             }
         ],
         "databases": [
             {
                 "name": "MySQL",
-                "level": "90"
+                "icon": "icon.svg#mysql",
+                "level": "90",
+                "description": "MySQL is an open-source relational database management system."
             },
             {
                 "name": "MongoDB",
-                "level": "90"
+                "icon": "icon.svg#mongodb",
+                "level": "90",
+                "description": "MongoDB is a source-available cross-platform document-oriented database program."
             },
             {
                 "name": "Firebase",
-                "level": "90"
+                "icon": "icon.svg#firebase",
+                "level": "90",
+                "description": "Firebase is a platform developed by Google for creating mobile and web applications."
             }
         ],
         "design": [
             {
                 "name": "Adobe Photoshop",
-                "level": "90"
+                "icon": "icon.svg#adobephotoshop",
+                "level": "90",
+                "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS."
             },
             {
                 "name": "Adobe Illustrator",
-                "level": "90"
+                "icon": "icon.svg#adobeillustrator",
+                "level": "90",
+                "description": "Adobe Illustrator is a vector graphics editor and design program developed and marketed by Adobe Inc."
             },
             {
                 "name": "Adobe XD",
-                "level": "90"
+                "icon": "icon.svg#adobexd",
+                "level": "90",
+                "description": "Adobe XD is a vector-based user experience design tool for web apps and mobile apps, developed and published by Adobe Inc."
             },
             {
                 "name": "Adobe Premiere Pro",
-                "level": "90"
+                "icon": "icon.svg#adobepremiere",
+                "level": "90",
+                "description": "Adobe Premiere Pro is a timeline-based video editing software application developed by Adobe Inc. and published as part of the Adobe Creative Cloud licensing program."
             },
             {
                 "name": "Adobe After Effects",
-                "level": "90"
+                "icon": "icon.svg#adobeaftereffects",
+                "level": "90",
+                "description": "Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed by Adobe Inc. and used in the post-production process of film making, video games and television production."
+            },
+            {
+                "name": "Adobe InDesign",
+                "icon": "icon.svg#adobeindesign",
+                "level": "90",
+                "description": "Adobe InDesign is a desktop publishing and typesetting software application produced by Adobe Inc."
             },
             {
                 "name": "Figma",
-                "level": "90"
+                "icon": "icon.svg#figma",
+                "level": "90",
+                "description": "Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows."
             }
         ],
         "others": [
             {
                 "name": "Microsoft Office",
-                "level": "90"
+                "icon": "icon.svg#microsoftoffice",
+                "level": "90",
+                "description": "Microsoft Office is a family of client software, server software, and services developed by Microsoft."
             },
             {
                 "name": "Google Workspace",
-                "level": "90"
+                "icon": "icon.svg#googleworkspace",
+                "level": "90",
+                "description": "Google Workspace is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google."
             },
             {
                 "name": "Windows",
-                "level": "90"
+                "icon": "icon.svg#windows",
+                "level": "90",
+                "description": "Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft."
             },
             {
                 "name": "Linux",
-                "level": "90"
+                "icon": "icon.svg#linux",
+                "level": "90",
+                "description": "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds."
             },
             {
                 "name": "MacOS",
-                "level": "90"
+                "icon": "icon.svg#macos",
+                "level": "90",
+                "description": "macOS is a series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001."
             }
         ]
     },

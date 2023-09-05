@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import data from '../../data/data.json'
+import Svg from '../../components/SVG/Svg'
 
 const Component = styled.div`
     display: flex;
@@ -36,6 +37,7 @@ const Component = styled.div`
 function Skills() {
     return (
         <Component>
+            <Svg data="icon.svg#tools-2" />
             <h2>
                 Skills
             </h2>
@@ -46,7 +48,8 @@ function Skills() {
             <ul>
                 {data.skills.programmingLanguages.map((programmingLanguage, index) => (
                     <li key={index}>
-                        {programmingLanguage.name}
+                        {programmingLanguage.name} <br />
+                        <Svg data={programmingLanguage.icon} />
                     </li>
                 ))}
             </ul>
@@ -57,7 +60,8 @@ function Skills() {
             <ul>
                 {data.skills.frameworksAndLibraries.map((frameworkAndLibrary, index) => (
                     <li key={index}>
-                        {frameworkAndLibrary.name}
+                        {frameworkAndLibrary.name} <br />
+                        <Svg data={frameworkAndLibrary.icon} />
                     </li>
                 ))}
             </ul>
@@ -68,7 +72,8 @@ function Skills() {
             <ul>
                 {data.skills.databases.map((database, index) => (
                     <li key={index}>
-                        {database.name}
+                        {database.name} <br />
+                        <Svg data={database.icon} />
                     </li>
                 ))}
             </ul>
@@ -79,7 +84,8 @@ function Skills() {
             <ul>
                 {data.skills.tools.map((tool, index) => (
                     <li key={index}>
-                        {tool.name}
+                        {tool.name} <br />
+                        <Svg data={tool.icon} />
                     </li>
                 ))}
             </ul>
@@ -90,7 +96,8 @@ function Skills() {
             <ul>
                 {data.skills.design.map((design, index) => (
                     <li key={index}>
-                        {design.name}
+                        {design.name} <br />
+                        <Svg data={design.icon} />
                     </li>
                 ))}
             </ul>
@@ -101,7 +108,8 @@ function Skills() {
             <ul>
                 {data.skills.others.map((other, index) => (
                     <li key={index}>
-                        {other.name}
+                        {other.name} <br />
+                        <Svg data={other.icon} />
                     </li>
                 ))}
             </ul>

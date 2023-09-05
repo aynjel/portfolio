@@ -3,6 +3,7 @@ import data from '../../data/data.json'
 import School from './School'
 import Course from './Course'
 import Subject from './Subject'
+import Svg from '../../components/SVG/Svg'
 
 const Component = styled.div`
     max-width: 1158px;
@@ -43,6 +44,7 @@ const Component = styled.div`
 function Education() {
     return (
         <Component>
+            <Svg data="icon.svg#graduation" />
             <h2>
                 Education
             </h2>

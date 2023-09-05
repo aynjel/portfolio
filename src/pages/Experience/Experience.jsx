@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import data from '../../data/data.json'
+import Svg from '../../components/SVG/Svg'
 
 const Component = styled.div`
     display: flex;
@@ -30,6 +31,8 @@ const Component = styled.div`
 function Experience() {
     return (
         <Component>
+            <Svg data="icon.svg#briefcase" />
+            <Svg data="icon.svg#office" />
             <h2>
                 Experience
             </h2>
