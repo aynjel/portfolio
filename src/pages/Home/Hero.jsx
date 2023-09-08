@@ -3,7 +3,7 @@ import data from "../../data/data.json";
 function Hero() {
     return (
         <div className="bg-gray-100 dark:bg-gray-900 grid grid-cols-1 md:grid-cols-2 p-20 gap-10">
-            <img src="images/profile.jpg" alt={data.personal.image.alt} className="rounded-full w-60 h-60 mx-auto md:mx-0 md:ml-10 md:mr-5 md:w-96 md:h-96 border-4 border-white-500" />
+            <img src={data.personal.image.src} alt={data.personal.image.alt} className="rounded-full w-60 h-60 mx-auto md:mx-0 md:ml-10 md:mr-5 md:w-96 md:h-96 border-4 border-white-500" />
             <div className="flex flex-col justify-center items-center md:items-start">
                 <h1 className="text-3xl font-bold text-white md:text-5xl">
                     {data.personal.jobDev.position}

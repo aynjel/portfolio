@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import ComingSoon from "./pages/ComingSoon";
 import Footer from "./components/Footer/Footer";
+import Project from "./pages/Project/Project";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/projects" element={<Project />} />
         <Route path="/cs" element={<ComingSoon />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
