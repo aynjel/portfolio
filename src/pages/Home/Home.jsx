@@ -13,7 +13,7 @@ function Home() {
             setIsLoading(false)
         }, 1000)
     }, [])
-
+    
     return (
         (isLoading) ? (
             <Loader />

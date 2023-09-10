@@ -1,14 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto:wght@400;500;700&display=swap');
 
 :root {
-    --primary-color: #27374D;
-    --secondary-color: #526D82;
-    --tertiary-color: #9DB2BF;
-    --quaternary-color: #DDE6ED;
-    --quinary-color: #F5F8FA;
-    --white-color: #FFFFFF;
+    --white: #FFFFFF;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+    --iris: #4D5AE5;
+    --slate: #434455;
+    --navyblue: #2E2F42;
+    --ocean: #404BBF;
+    --green: #31D0AA;
+    --lightslate: #8E8F99;
+    --navybluemodal: #2E2F4266;
+    --grey: #2E2F42B2;
+    --diary: #FCFCFC;
+    --transition-duration: 1s;
+    --animation-timing-function: cubic-bezier(0, .76, .18, 1);
 }
 
 html {
@@ -22,8 +28,47 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
 #root {
     width: 100%;
     height: 100%;
-    background-color: var(--quinary-color);
 }
