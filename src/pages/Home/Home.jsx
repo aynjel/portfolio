@@ -1,31 +1,26 @@
-import { useEffect, useState } from 'react'
-import Loader from '../../components/Loader/Loader'
+// import { useEffect, useState } from 'react'
+import './Home.css'
+// import Loader from '../../components/Loader/Loader'
 import Hero from './Hero'
-import Skill from './Skill'
-import Contact from './Contact'
+import Social from "./Social";
+// import Skill from './Skill'
+// import Contact from './Contact'
 import About from './About'
+import data from '../../data/data.json'
 
 function Home() {
-    const [isLoading, setIsLoading] = useState(true)
     
-    useEffect(() => {
-        setTimeout(() => {
-            setIsLoading(false)
-        }, 1000)
-    }, [])
     
     return (
-        (isLoading) ? (
-            <Loader />
-        ) :
-        <>
+        <main className="Home">
         
-            <Hero />
-            <Skill />
-            <About />
-            <Contact />
+            <Hero data={data.personal} />
+            <About data={data} />
+            <Social data={data.socials} />
+            {/* <Skill />
+            <Contact /> */}
             
-        </>
+        </main>
     )
 }
 

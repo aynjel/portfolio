@@ -1,6 +1,6 @@
 {
     "personal": {
-        "fullname": "Angel Niño C. Ortega",
+        "name": "Angel Niño C. Ortega",
         "firstname": "Angel Niño",
         "middlename": "Canillo",
         "lastname": "Ortega",
@@ -11,6 +11,7 @@
             "src": "images/profile.jpg",
             "alt": "My Photo | Angel Niño C. Ortega"
         },
+        "objective": "Hi, My name is Angel Niño Ortega, 23 years old, a graduate of a four year course of Bachelor of Science in Information Technology at Consolatrix College of Toledo City, Inc. My goal is to become a Full Stack Developer. I am a hardworking, trustworthy, deligent and adaptable person who understands how important teamwork and professionalism are in this role and I am confident that I have the skills and experience to be an asset to your company. If you hire me, I will be a model to the company and I will do my best to contribute to the success of the company.",
         "location": {
             "street": "Purok 2",
             "baranggay": "Bato",
@@ -27,52 +28,43 @@
             "number": "+639123456789",
             "email": "ortegacanillo76@gmail.com"
         },
-        "jobDev": {
-            "position": "Full Stack Developer",
-            "description": "Hi I am Angel Niño Ortega, I seek to obtain a position as a Full Stack Web Developer in a company where I can maximize my skills in web development, leadership, and problem solving, and at the same time, contribute to the success of the company. I am a graduate of Bachelor of Science in Information Technology at the Consolatrix College of Toledo City. I am also a self-taught programmer and I am always eager to learn new technologies and skills.",
-            "resume": "https://www.canva.com/design/DAFtHdMtW8Q/bWPEY9Rx-b1ofPjvzXbMIQ/view?website#4",
-            "contact": {
-                "number": "+639123456789",
-                "email": "ortegacanillo76@gmail.com"
-            }
+        "resume": "https://www.canva.com/design/DAFtHdMtW8Q/bWPEY9Rx-b1ofPjvzXbMIQ/view?website#4",
+        "github": "https://github.com/aynjel",
+        "profession": {
+            "title": "Full Stack Developer",
+            "description": "A full stack developer is a web developer or engineer who works with both the front and back ends of a website or application—meaning they can tackle projects that involve databases, building user-facing websites, or even work with clients during the planning phase of projects."
         }
     },
     "socials": [
         {
-            "name": "GitHub",
-            "link": "https://github.com/aynjel",
-            "username": "aynjel",
-            "icon": ""
-        },
-        {
             "name": "Facebook",
-            "link": "https://www.facebook.com/angelortega76",
+            "url": "https://www.facebook.com/angelortega76",
             "username": "angelortega76",
-            "icon": ""
+            "icon": "facebook"
         },
         {
             "name": "Twitter",
-            "link": "https://twitter.com/angelortega76",
+            "url": "https://twitter.com/angelortega76",
             "username": "angelortega76",
-            "icon": ""
+            "icon": "x"
         },
         {
             "name": "Instagram",
-            "link": "https://www.instagram.com/angelortega76",
+            "url": "https://www.instagram.com/angelortega76",
             "username": "angelortega76",
-            "icon": ""
+            "icon": "instagram"
         },
         {
             "name": "LinkedIn",
-            "link": "https://www.linkedin.com/in/angelortega76",
+            "url": "https://www.linkedin.com/in/angelortega76",
             "username": "angelortega76",
-            "icon": ""
+            "icon": "linkedin"
         },
         {
             "name": "YouTube",
-            "link": "https://www.youtube.com/channel/UC1caba1143e02d6b200c958df77",
+            "url": "https://www.youtube.com/channel/UC1caba1143e02d6b200c958df77",
             "username": "angelortega76",
-            "icon": ""
+            "icon": "youtube"
         }
     ],
     "skills": [

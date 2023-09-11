@@ -1,30 +1,31 @@
-import data from "../../data/data.json";
+import PropTypes from 'prop-types';
+import './About.css';
 
-function About() {
+function About({ data }) {
     return (
-        <div className="bg-gray-100 dark:bg-gray-900 flex flex-col justify-center items-center p-20 gap-10">
-            <h2 className="text-2xl font-bold text-center text-gray-800 dark:text-gray-200 md:text-3xl">
-                About me
-            </h2>
-            <div className="flex flex-col justify-center items-center w-full gap-10">
-                <div className="flex flex-col justify-center items-center w-full gap-5">
-                    <img src={data.personal.image.src} alt={data.personal.image.alt} className="rounded-full w-60 h-60 mx-auto md:mx-0 md:ml-10 md:mr-5 md:w-20 md:h-20 border-2 border-white-500" />
-                    <h3 className="text-xl font-bold text-center text-white md:text-2xl">
-                        {data.personal.fullname}
-                    </h3>
-                    <p className="text-white text-lg">
-                        {data.personal.location.street}, {data.personal.location.baranggay}, {data.personal.location.city}, {data.personal.location.province}, {data.personal.location.country}
-                    </p>
-                    <p className="text-white text-lg">
-                        {data.personal.contact.email}
-                    </p>
-                    <p className="text-white text-lg">
-                        {data.personal.contact.number}
-                    </p>
+        <section className="About">
+            <div className="Container About__container">
+                <div className="About__content">
+                    <h2 className="About__title">
+                        About <span>Me</span>
+                    </h2>
+                    <p className="About__description">{data.personal.objective}</p>
+                    <ul className="About__buttons">
+                        <li>
+                            <a href={data.personal.resume} target="_blank" rel="noreferrer" className="About__button">Resume</a>
+                        </li>
+                        <li>
+                            <a href={data.personal.github} target="_blank" rel="noreferrer" className="About__button">Github</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
+
+About.propTypes = {
+    data: PropTypes.object.isRequired
+};
 
 export default About

@@ -1,0 +1,92 @@
+.Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.Hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 460px;
+    background: var(--navyblue);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+    z-index: -1;
+}
+
+.Hero__Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--white);
+    background: var(--navyblue);
+    height: 500px;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+}
+
+.Hero__Image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hero__Image img{
+    width: 180px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    object-fit: cover;
+    border: 3px solid var(--white);
+}
+
+.Hero__Caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.Hero__Caption h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.Hero__Caption h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.Hero__Button{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 2rem 0 1rem 0;
+    color: var(--white);
+    background: var(--iris);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.Hero__Button:hover{
+    background: var(--ocean);
+}
+
+.Hero__Button:active{
+    transform: scale(1.05);
+}
